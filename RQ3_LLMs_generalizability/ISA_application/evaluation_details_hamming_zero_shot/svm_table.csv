@@ -1,0 +1,9 @@
+Row,Avg_Perf_all_instances,Std_Perf_all_instances,Probability_of_good,Avg_Perf_selected_instances,Std_Perf_selected_instances,CV_model_accuracy,CV_model_precision,CV_model_recall,BoxConstraint,KernelScale
+chatgpt,0.111,0.102,0.729,0.111,0.102,72.9,72.9,100,3.009,0.006
+claude,0.197,0.136,0.462,0.083,0.055,99.9,99.7,100,3.009,0.006
+deepseek,0.112,0.106,0.75,0.112,0.106,75,75,100,0.109,11.223
+gemini,0.104,0.105,0.774,0.104,0.105,77.4,77.4,100,0.109,11.223
+gemma,0.156,0.126,0.615,0.157,0.126,60.9,61.3,98.6,0.046,5.937
+qwen,0.153,0.114,0.572,0.153,0.114,57.2,57.2,100,0.109,11.223
+Oracle,0.055,0.076,1,,,,,,,
+Selector,0.114,0.093,0.821,0.114,0.093,,82.1,47.9,,

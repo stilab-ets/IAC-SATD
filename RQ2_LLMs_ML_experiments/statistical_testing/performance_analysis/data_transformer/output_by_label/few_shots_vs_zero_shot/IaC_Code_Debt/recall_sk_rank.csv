@@ -1,0 +1,10 @@
+label,eval_metric,model,rank,mean,median,iqr
+IaC Code Debt,recall,gemma_rag_openai_precomputed,1,0.9966101694915255,1.0,0.008474576271186418
+IaC Code Debt,recall,gemini_rag_openai_precomputed,1,1.0,1.0,0.0
+IaC Code Debt,recall,gemini_facebook,1,1.0,1.0,0.0
+IaC Code Debt,recall,deepseek_rag_openai_precomputed,2,0.9871670702179175,0.9915254237288136,0.025423728813559365
+IaC Code Debt,recall,chatgpt_rag_openai_precomputed,3,0.9857142857142855,0.9830508474576272,0.025423728813559365
+IaC Code Debt,recall,claude_rag_openai_precomputed,4,0.9186440677966102,0.923728813559322,0.03389830508474567
+IaC Code Debt,recall,chatgpt_facebook,5,0.9053268765133173,0.8983050847457628,0.021186440677966156
+IaC Code Debt,recall,qwen_rag_openai_precomputed,6,0.8750605326876516,0.8898305084745762,0.0423728813559322
+IaC Code Debt,recall,claude_facebook,7,0.8585956416464892,0.8559322033898306,0.06355932203389825

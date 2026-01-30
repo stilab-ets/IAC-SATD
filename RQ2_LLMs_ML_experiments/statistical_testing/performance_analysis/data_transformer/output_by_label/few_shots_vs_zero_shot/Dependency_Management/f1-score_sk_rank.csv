@@ -1,0 +1,10 @@
+label,eval_metric,model,rank,mean,median,iqr
+Dependency Management,f1-score,deepseek_rag_openai_precomputed,1,0.7815114019455348,0.7843137254901961,0.07222687717789777
+Dependency Management,f1-score,qwen_rag_openai_precomputed,2,0.7548833129947021,0.782608695652174,0.11821607254534083
+Dependency Management,f1-score,gemini_facebook,3,0.7510568694658529,0.75,0.03868471953578334
+Dependency Management,f1-score,gemini_rag_openai_precomputed,4,0.7386346457372172,0.7441860465116279,0.034769463340891926
+Dependency Management,f1-score,chatgpt_rag_openai_precomputed,4,0.7369912254672512,0.7272727272727273,0.07002457002456997
+Dependency Management,f1-score,chatgpt_facebook,4,0.7406190847865582,0.7272727272727273,0.13333333333333341
+Dependency Management,f1-score,gemma_rag_openai_precomputed,5,0.6933120721848255,0.7017543859649122,0.0267857142857143
+Dependency Management,f1-score,claude_rag_openai_precomputed,6,0.5654112883661272,0.5641025641025641,0.025316455696202556
+Dependency Management,f1-score,claude_facebook,7,0.5271942851176212,0.5348837209302325,0.05983484499796943

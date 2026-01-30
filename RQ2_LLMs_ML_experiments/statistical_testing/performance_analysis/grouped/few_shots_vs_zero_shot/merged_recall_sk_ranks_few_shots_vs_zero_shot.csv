@@ -1,0 +1,100 @@
+label,eval_metric,model,rank,mean,median,iqr
+Infrastructure Management Debt,recall,gemma_rag_openai_precomputed,1,0.9217410040939453,0.9411764705882352,0.038461538461538436
+Infrastructure Management Debt,recall,claude_rag_openai_precomputed,1,0.910805860805861,0.9230769230769232,0.07692307692307698
+Infrastructure Management Debt,recall,claude_facebook,1,0.915632406808877,0.903846153846154,0.030165912518853588
+Infrastructure Management Debt,recall,chatgpt_rag_openai_precomputed,2,0.8978560655031245,0.903846153846154,0.04807692307692313
+Infrastructure Management Debt,recall,gemini_rag_openai_precomputed,3,0.8831501831501832,0.8846153846153846,0.0365761689291102
+Infrastructure Management Debt,recall,chatgpt_facebook,4,0.8878258995906056,0.8846153846153846,0.0769230769230771
+Infrastructure Management Debt,recall,gemini_facebook,5,0.843309631544926,0.8461538461538461,0.03846153846153855
+Infrastructure Management Debt,recall,qwen_rag_openai_precomputed,6,0.8210299504417152,0.8269230769230769,0.09615384615384615
+Infrastructure Management Debt,recall,deepseek_rag_openai_precomputed,6,0.8101271277741867,0.7884615384615384,0.09841628959276028
+IaC Code Debt,recall,gemma_rag_openai_precomputed,1,0.9966101694915255,1.0,0.008474576271186418
+IaC Code Debt,recall,gemini_rag_openai_precomputed,1,1.0,1.0,0.0
+IaC Code Debt,recall,gemini_facebook,1,1.0,1.0,0.0
+IaC Code Debt,recall,deepseek_rag_openai_precomputed,2,0.9871670702179175,0.9915254237288136,0.025423728813559365
+IaC Code Debt,recall,chatgpt_rag_openai_precomputed,3,0.9857142857142855,0.9830508474576272,0.025423728813559365
+IaC Code Debt,recall,claude_rag_openai_precomputed,4,0.9186440677966102,0.923728813559322,0.03389830508474567
+IaC Code Debt,recall,chatgpt_facebook,5,0.9053268765133173,0.8983050847457628,0.021186440677966156
+IaC Code Debt,recall,qwen_rag_openai_precomputed,6,0.8750605326876516,0.8898305084745762,0.0423728813559322
+IaC Code Debt,recall,claude_facebook,7,0.8585956416464892,0.8559322033898306,0.06355932203389825
+Dependency Management,recall,claude_rag_openai_precomputed,1,0.963095238095238,0.9583333333333334,0.04347826086956519
+Dependency Management,recall,claude_facebook,1,0.9717908902691511,0.9583333333333334,0.04347826086956519
+Dependency Management,recall,gemma_rag_openai_precomputed,2,0.8628364389233957,0.8695652173913043,0.0
+Dependency Management,recall,deepseek_rag_openai_precomputed,3,0.847153209109731,0.8695652173913043,0.07065217391304346
+Dependency Management,recall,gemini_rag_openai_precomputed,4,0.781573498964803,0.8260869565217391,0.1376811594202899
+Dependency Management,recall,qwen_rag_openai_precomputed,4,0.7752587991718428,0.782608695652174,0.09420289855072472
+Dependency Management,recall,gemini_facebook,4,0.7791925465838511,0.782608695652174,0.09420289855072472
+Dependency Management,recall,chatgpt_rag_openai_precomputed,5,0.6864389233954453,0.6956521739130435,0.14130434782608692
+Dependency Management,recall,chatgpt_facebook,5,0.7122153209109731,0.6956521739130435,0.21739130434782605
+Security Debt,recall,deepseek_rag_openai_precomputed,1,0.6965714285714285,0.7,0.039999999999999925
+Security Debt,recall,gemma_rag_openai_precomputed,1,0.6828571428571427,0.68,0.05999999999999994
+Security Debt,recall,gemini_rag_openai_precomputed,2,0.6354285714285712,0.64,0.10000000000000009
+Security Debt,recall,claude_rag_openai_precomputed,2,0.6462857142857141,0.64,0.08999999999999997
+Security Debt,recall,claude_facebook,2,0.6399999999999999,0.64,0.12
+Security Debt,recall,qwen_rag_openai_precomputed,3,0.5725714285714286,0.56,0.05999999999999994
+Security Debt,recall,gemini_facebook,3,0.5640000000000001,0.56,0.09999999999999998
+Security Debt,recall,chatgpt_rag_openai_precomputed,3,0.5502857142857143,0.56,0.08999999999999997
+Security Debt,recall,chatgpt_facebook,4,0.4805714285714287,0.48,0.03999999999999998
+Networking Debt,recall,claude_rag_openai_precomputed,1,0.8445109078114004,0.8571428571428571,0.053571428571428714
+Networking Debt,recall,gemini_rag_openai_precomputed,2,0.8086206896551726,0.8214285714285714,0.028325123152709297
+Networking Debt,recall,gemma_rag_openai_precomputed,2,0.8086206896551723,0.7931034482758621,0.0357142857142857
+Networking Debt,recall,claude_facebook,3,0.7924700914848698,0.7857142857142857,0.08928571428571419
+Networking Debt,recall,chatgpt_facebook,3,0.7589021815622801,0.7857142857142857,0.0714285714285714
+Networking Debt,recall,qwen_rag_openai_precomputed,4,0.6986629134412388,0.75,0.1785714285714286
+Networking Debt,recall,deepseek_rag_openai_precomputed,4,0.7644968332160451,0.75,0.11330049261083741
+Networking Debt,recall,chatgpt_rag_openai_precomputed,5,0.7460942997888814,0.75,0.1490147783251231
+Networking Debt,recall,gemini_facebook,6,0.6686488388458832,0.6785714285714286,0.046798029556650245
+Environment-Based Configuration Debt,recall,claude_facebook,1,0.8612698412698414,0.8888888888888888,0.0888888888888888
+Environment-Based Configuration Debt,recall,claude_rag_openai_precomputed,2,0.8123015873015873,0.7777777777777778,0.125
+Environment-Based Configuration Debt,recall,gemma_rag_openai_precomputed,3,0.6800793650793648,0.7,0.08333333333333337
+Environment-Based Configuration Debt,recall,qwen_rag_openai_precomputed,4,0.551984126984127,0.5555555555555556,0.25
+Environment-Based Configuration Debt,recall,gemini_rag_openai_precomputed,5,0.48404761904761895,0.5,0.18055555555555558
+Environment-Based Configuration Debt,recall,deepseek_rag_openai_precomputed,5,0.5653174603174602,0.5,0.24305555555555558
+Environment-Based Configuration Debt,recall,chatgpt_rag_openai_precomputed,5,0.5568253968253969,0.5,0.18055555555555558
+Environment-Based Configuration Debt,recall,chatgpt_facebook,5,0.5359523809523808,0.5,0.125
+Environment-Based Configuration Debt,recall,gemini_facebook,6,0.4245238095238096,0.4444444444444444,0.125
+Monitoring and Logging Debt,recall,gemma_rag_openai_precomputed,1,0.77484126984127,0.7777777777777778,0.275
+Monitoring and Logging Debt,recall,claude_facebook,1,0.7541269841269843,0.7777777777777778,0.1071428571428571
+Monitoring and Logging Debt,recall,claude_rag_openai_precomputed,2,0.7142743764172337,0.7142857142857143,0.17500000000000004
+Monitoring and Logging Debt,recall,deepseek_rag_openai_precomputed,3,0.5777777777777778,0.625,0.1694444444444444
+Monitoring and Logging Debt,recall,qwen_rag_openai_precomputed,3,0.6783673469387758,0.5714285714285714,0.24444444444444446
+Monitoring and Logging Debt,recall,chatgpt_rag_openai_precomputed,4,0.5572222222222223,0.5555555555555556,0.3214285714285715
+Monitoring and Logging Debt,recall,gemini_facebook,5,0.37388888888888894,0.4444444444444444,0.2142857142857143
+Monitoring and Logging Debt,recall,chatgpt_facebook,5,0.539206349206349,0.4444444444444444,0.27142857142857146
+Monitoring and Logging Debt,recall,gemini_rag_openai_precomputed,6,0.39833333333333343,0.3333333333333333,0.2142857142857143
+Test Debt,recall,gemma_rag_openai_precomputed,1,0.6224489795918366,0.625,0.1785714285714286
+Test Debt,recall,chatgpt_rag_openai_precomputed,2,0.5892857142857141,0.625,0.2857142857142858
+Test Debt,recall,chatgpt_facebook,2,0.638265306122449,0.625,0.1607142857142858
+Test Debt,recall,qwen_rag_openai_precomputed,3,0.5443877551020407,0.5714285714285714,0.1964285714285715
+Test Debt,recall,claude_rag_openai_precomputed,4,0.4816326530612245,0.5714285714285714,0.25
+Test Debt,recall,claude_facebook,4,0.5204081632653061,0.5714285714285714,0.25
+Test Debt,recall,deepseek_rag_openai_precomputed,5,0.4647959183673469,0.5,0.07142857142857151
+Test Debt,recall,gemini_rag_openai_precomputed,6,0.4035714285714285,0.4285714285714285,0.125
+Test Debt,recall,gemini_facebook,7,0.3428571428571427,0.375,0.3571428571428572
+Macro,recall,claude_rag_openai_precomputed,1,0.7864438006968587,0.7941785015831626,0.04384214145951382
+Macro,recall,claude_facebook,1,0.78928675235894,0.7886284147041278,0.03525786960620403
+Macro,recall,gemma_rag_openai_precomputed,1,0.7937543824417066,0.7861067955033472,0.05222459175554417
+Macro,recall,deepseek_rag_openai_precomputed,2,0.7141758531689868,0.7170488267770876,0.0211372337652338
+Macro,recall,chatgpt_rag_openai_precomputed,3,0.6962153277525979,0.6892018368105324,0.036407205689539035
+Macro,recall,chatgpt_facebook,4,0.6822832179287232,0.6873722335144591,0.036641258918298614
+Macro,recall,gemini_rag_openai_precomputed,5,0.6743406655188887,0.6823903730369247,0.025244131597204955
+Macro,recall,qwen_rag_openai_precomputed,6,0.6896653566673524,0.680715946105782,0.02407437911156385
+Macro,recall,gemini_facebook,7,0.6245526072805626,0.6256056661795153,0.026385877001975255
+Micro,recall,gemma_rag_openai_precomputed,1,0.8772515132317669,0.8762541806020067,0.016502519468621246
+Micro,recall,claude_rag_openai_precomputed,2,0.8477932215232381,0.8508474576271187,0.02826787182377244
+Micro,recall,deepseek_rag_openai_precomputed,3,0.8377557433088841,0.8401360544217688,0.02112258201846584
+Micro,recall,gemini_rag_openai_precomputed,3,0.8355743756516016,0.8372881355932204,0.009596885020613843
+Micro,recall,claude_facebook,4,0.8230673748670382,0.8209459459459459,0.01637265075521732
+Micro,recall,chatgpt_rag_openai_precomputed,5,0.8159313082230534,0.8169491525423729,0.016334261249515425
+Micro,recall,gemini_facebook,6,0.7990550996200464,0.7966101694915254,0.013910988124063217
+Micro,recall,chatgpt_facebook,7,0.7736629477853365,0.7762711864406779,0.01953733394411361
+Micro,recall,qwen_rag_openai_precomputed,8,0.7664760050019396,0.7687074829931972,0.02211645301707399
+Weighted,recall,gemma_rag_openai_precomputed,1,0.8772515132317669,0.8762541806020067,0.016502519468621246
+Weighted,recall,claude_rag_openai_precomputed,2,0.8477932215232381,0.8508474576271187,0.02826787182377244
+Weighted,recall,deepseek_rag_openai_precomputed,3,0.8377557433088841,0.8401360544217688,0.02112258201846584
+Weighted,recall,gemini_rag_openai_precomputed,3,0.8355743756516016,0.8372881355932204,0.009596885020613843
+Weighted,recall,claude_facebook,4,0.8230673748670382,0.8209459459459459,0.01637265075521732
+Weighted,recall,chatgpt_rag_openai_precomputed,5,0.8159313082230534,0.8169491525423729,0.016334261249515425
+Weighted,recall,gemini_facebook,6,0.7990550996200464,0.7966101694915254,0.013910988124063217
+Weighted,recall,chatgpt_facebook,7,0.7736629477853365,0.7762711864406779,0.01953733394411361
+Weighted,recall,qwen_rag_openai_precomputed,8,0.7664760050019396,0.7687074829931972,0.02211645301707399

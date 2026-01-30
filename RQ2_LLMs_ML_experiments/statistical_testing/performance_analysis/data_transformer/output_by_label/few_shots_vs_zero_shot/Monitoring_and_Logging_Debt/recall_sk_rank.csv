@@ -1,0 +1,10 @@
+label,eval_metric,model,rank,mean,median,iqr
+Monitoring and Logging Debt,recall,gemma_rag_openai_precomputed,1,0.77484126984127,0.7777777777777778,0.275
+Monitoring and Logging Debt,recall,claude_facebook,1,0.7541269841269843,0.7777777777777778,0.1071428571428571
+Monitoring and Logging Debt,recall,claude_rag_openai_precomputed,2,0.7142743764172337,0.7142857142857143,0.17500000000000004
+Monitoring and Logging Debt,recall,deepseek_rag_openai_precomputed,3,0.5777777777777778,0.625,0.1694444444444444
+Monitoring and Logging Debt,recall,qwen_rag_openai_precomputed,3,0.6783673469387758,0.5714285714285714,0.24444444444444446
+Monitoring and Logging Debt,recall,chatgpt_rag_openai_precomputed,4,0.5572222222222223,0.5555555555555556,0.3214285714285715
+Monitoring and Logging Debt,recall,gemini_facebook,5,0.37388888888888894,0.4444444444444444,0.2142857142857143
+Monitoring and Logging Debt,recall,chatgpt_facebook,5,0.539206349206349,0.4444444444444444,0.27142857142857146
+Monitoring and Logging Debt,recall,gemini_rag_openai_precomputed,6,0.39833333333333343,0.3333333333333333,0.2142857142857143

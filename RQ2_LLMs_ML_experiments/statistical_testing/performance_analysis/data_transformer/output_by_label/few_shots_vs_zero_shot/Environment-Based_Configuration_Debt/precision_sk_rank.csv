@@ -1,0 +1,10 @@
+label,eval_metric,model,rank,mean,median,iqr
+Environment-Based Configuration Debt,precision,gemini_rag_openai_precomputed,1,0.6884353741496598,0.8333333333333334,0.261904761904762
+Environment-Based Configuration Debt,precision,chatgpt_rag_openai_precomputed,1,0.7149835085549372,0.8,0.19696969696969702
+Environment-Based Configuration Debt,precision,deepseek_rag_openai_precomputed,1,0.7207256235827664,0.75,0.1875000000000001
+Environment-Based Configuration Debt,precision,chatgpt_facebook,2,0.6980612244897962,0.7142857142857143,0.20000000000000007
+Environment-Based Configuration Debt,precision,gemini_facebook,3,0.5791156462585034,0.6,0.07440476190476186
+Environment-Based Configuration Debt,precision,qwen_rag_openai_precomputed,4,0.506938775510204,0.5,0.125
+Environment-Based Configuration Debt,precision,gemma_rag_openai_precomputed,5,0.3397548652634898,0.3333333333333333,0.08214285714285718
+Environment-Based Configuration Debt,precision,claude_rag_openai_precomputed,6,0.2948669258627136,0.2857142857142857,0.05943223443223444
+Environment-Based Configuration Debt,precision,claude_facebook,7,0.1748145850333736,0.1739130434782608,0.012811791383219945

@@ -1,0 +1,10 @@
+label,eval_metric,model,rank,mean,median,iqr
+Infrastructure Management Debt,f1-score,gemini_rag_openai_precomputed,1,0.7788969459766443,0.7933884297520661,0.04739974937343361
+Infrastructure Management Debt,f1-score,chatgpt_rag_openai_precomputed,1,0.7771731317029067,0.782608695652174,0.0324371712448861
+Infrastructure Management Debt,f1-score,qwen_rag_openai_precomputed,1,0.7759660473137576,0.7747747747747747,0.05596189916856242
+Infrastructure Management Debt,f1-score,gemini_facebook,2,0.769634222588741,0.7706422018348624,0.026306174643770608
+Infrastructure Management Debt,f1-score,deepseek_rag_openai_precomputed,2,0.7744214181636448,0.7706422018348624,0.03399045616546936
+Infrastructure Management Debt,f1-score,chatgpt_facebook,3,0.7540346286125634,0.7538461538461538,0.025431556948798395
+Infrastructure Management Debt,f1-score,claude_rag_openai_precomputed,4,0.7358261315149652,0.732824427480916,0.023216300978845528
+Infrastructure Management Debt,f1-score,gemma_rag_openai_precomputed,5,0.7015790689692538,0.7076923076923077,0.027482269503546042
+Infrastructure Management Debt,f1-score,claude_facebook,6,0.6739173487261851,0.6714285714285714,0.021465022016154967

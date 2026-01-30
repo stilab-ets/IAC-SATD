@@ -1,0 +1,9 @@
+label,eval_metric,model,rank,mean,median,iqr
+Monitoring and Logging Debt,precision,qwen,1,0.9231065759637189,1.0,0.16666666666666663
+Monitoring and Logging Debt,precision,gemini,1,0.9657142857142856,1.0,0.0
+Monitoring and Logging Debt,precision,deepseek,1,0.9663945578231292,1.0,0.0
+Monitoring and Logging Debt,precision,chatgpt,1,0.9789115646258503,1.0,0.0
+Monitoring and Logging Debt,precision,claude,2,0.7092640692640694,0.7,0.20000000000000007
+Monitoring and Logging Debt,precision,gemma,3,0.5698557558221423,0.5714285714285714,0.16666666666666663
+Monitoring and Logging Debt,precision,RF,4,0.02857142857142857,0.0,0.0
+Monitoring and Logging Debt,precision,LightGBM,4,0.2857142857142857,0.0,0.5

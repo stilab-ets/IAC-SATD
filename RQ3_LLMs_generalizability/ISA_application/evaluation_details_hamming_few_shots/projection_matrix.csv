@@ -1,0 +1,3 @@
+Row,syllables_per_token_std,n_unique_tokens,pos_prop_CCONJ,pos_prop_NUM,pos_prop_PART,symbol_to_word_ratio__,top_ngram_chr_fraction_2,prop_adjacent_dependency_relation_mean,numImplicitDependentResources,numImplicitDependentLocals
+Z_{1},-0.2139,-0.3349,-0.0455,0.1848,-0.385,-0.5563,0.1962,-0.2217,0.4524,-0.2723
+Z_{2},-0.5697,-0.7258,0.4916,-0.3487,0.2508,-0.3976,0.4306,0.2399,0.0341,-0.4865

@@ -1,0 +1,7 @@
+Row,Area_Good_Normalized,Density_Good_Normalized,Purity_Good,Area_Best_Normalized,Density_Best_Normalized,Purity_Best
+chatgpt,0.878,1.12,0.793,0.019,1.734,0.636
+claude,0.606,1.182,0.647,0.011,2.883,0.81
+deepseek,0.945,1.047,0.773,0.039,1.418,0.703
+gemini,0.989,1.005,0.825,0.054,0.868,0.781
+gemma,0.843,1.153,0.693,0.009,1.556,0.8
+qwen,0.964,1.028,0.759,0.02,1.665,0.826

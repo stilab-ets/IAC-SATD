@@ -1,0 +1,9 @@
+label,eval_metric,model,rank,mean,median,iqr
+Security Debt,recall,gemma,1,0.6131428571428572,0.64,0.09999999999999998
+Security Debt,recall,claude,1,0.6399999999999999,0.64,0.12
+Security Debt,recall,deepseek,2,0.6085714285714285,0.6,0.09999999999999998
+Security Debt,recall,gemini,3,0.5640000000000001,0.56,0.09999999999999998
+Security Debt,recall,LightGBM,4,0.4897142857142857,0.52,0.07
+Security Debt,recall,qwen,5,0.4897142857142857,0.48,0.07
+Security Debt,recall,chatgpt,5,0.4805714285714287,0.48,0.03999999999999998
+Security Debt,recall,RF,6,0.38400000000000006,0.38,0.12

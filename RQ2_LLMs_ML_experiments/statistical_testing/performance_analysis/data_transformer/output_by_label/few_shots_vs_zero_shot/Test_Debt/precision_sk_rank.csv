@@ -1,0 +1,10 @@
+label,eval_metric,model,rank,mean,median,iqr
+Test Debt,precision,gemini_facebook,1,0.8928571428571429,1.0,0.25
+Test Debt,precision,deepseek_rag_openai_precomputed,2,0.8108843537414968,0.8,0.33333333333333337
+Test Debt,precision,gemini_rag_openai_precomputed,3,0.8047619047619048,0.75,0.29166666666666674
+Test Debt,precision,qwen_rag_openai_precomputed,4,0.6822222222222223,0.6,0.17658730158730163
+Test Debt,precision,gemma_rag_openai_precomputed,5,0.5523645402216829,0.6,0.1634615384615385
+Test Debt,precision,claude_rag_openai_precomputed,5,0.6267913832199546,0.5714285714285714,0.19047619047619047
+Test Debt,precision,chatgpt_rag_openai_precomputed,5,0.612542774685632,0.5555555555555556,0.054545454545454564
+Test Debt,precision,chatgpt_facebook,5,0.5635837971552258,0.5555555555555556,0.09999999999999998
+Test Debt,precision,claude_facebook,6,0.5367037724180581,0.5,0.0714285714285714

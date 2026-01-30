@@ -1,0 +1,10 @@
+label,eval_metric,model,rank,mean,median,iqr
+Networking Debt,precision,chatgpt_rag_openai_precomputed,1,0.8860830427551255,0.8947368421052632,0.044995765104460794
+Networking Debt,precision,chatgpt_facebook,2,0.8500969266897396,0.85,0.06087912087912084
+Networking Debt,precision,deepseek_rag_openai_precomputed,3,0.8326593996503815,0.8275862068965517,0.04853479853479847
+Networking Debt,precision,gemini_facebook,3,0.8432339141190073,0.8260869565217391,0.06660079051383394
+Networking Debt,precision,gemini_rag_openai_precomputed,4,0.8221757078899938,0.8214285714285714,0.05874840357598976
+Networking Debt,precision,qwen_rag_openai_precomputed,5,0.7465038650938599,0.7307692307692307,0.06316211134064309
+Networking Debt,precision,gemma_rag_openai_precomputed,6,0.6576957644800167,0.6470588235294118,0.05097660685895988
+Networking Debt,precision,claude_facebook,7,0.6113311339311113,0.6111111111111112,0.05964052287581689
+Networking Debt,precision,claude_rag_openai_precomputed,7,0.6196566892748705,0.6097560975609756,0.06465421800787663

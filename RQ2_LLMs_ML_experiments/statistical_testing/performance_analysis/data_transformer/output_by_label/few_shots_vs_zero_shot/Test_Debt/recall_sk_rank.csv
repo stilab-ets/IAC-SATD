@@ -1,0 +1,10 @@
+label,eval_metric,model,rank,mean,median,iqr
+Test Debt,recall,gemma_rag_openai_precomputed,1,0.6224489795918366,0.625,0.1785714285714286
+Test Debt,recall,chatgpt_rag_openai_precomputed,2,0.5892857142857141,0.625,0.2857142857142858
+Test Debt,recall,chatgpt_facebook,2,0.638265306122449,0.625,0.1607142857142858
+Test Debt,recall,qwen_rag_openai_precomputed,3,0.5443877551020407,0.5714285714285714,0.1964285714285715
+Test Debt,recall,claude_rag_openai_precomputed,4,0.4816326530612245,0.5714285714285714,0.25
+Test Debt,recall,claude_facebook,4,0.5204081632653061,0.5714285714285714,0.25
+Test Debt,recall,deepseek_rag_openai_precomputed,5,0.4647959183673469,0.5,0.07142857142857151
+Test Debt,recall,gemini_rag_openai_precomputed,6,0.4035714285714285,0.4285714285714285,0.125
+Test Debt,recall,gemini_facebook,7,0.3428571428571427,0.375,0.3571428571428572

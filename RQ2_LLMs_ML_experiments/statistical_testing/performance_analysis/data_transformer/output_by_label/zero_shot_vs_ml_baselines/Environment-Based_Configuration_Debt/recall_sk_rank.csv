@@ -1,0 +1,9 @@
+label,eval_metric,model,rank,mean,median,iqr
+Environment-Based Configuration Debt,recall,claude,1,0.8612698412698414,0.8888888888888888,0.0888888888888888
+Environment-Based Configuration Debt,recall,gemma,2,0.5811111111111111,0.5555555555555556,0.125
+Environment-Based Configuration Debt,recall,chatgpt,3,0.5359523809523808,0.5,0.125
+Environment-Based Configuration Debt,recall,gemini,4,0.4245238095238096,0.4444444444444444,0.125
+Environment-Based Configuration Debt,recall,deepseek,5,0.4105555555555557,0.4,0.06944444444444442
+Environment-Based Configuration Debt,recall,qwen,6,0.36706349206349215,0.375,0.06666666666666671
+Environment-Based Configuration Debt,recall,LightGBM,7,0.1130952380952381,0.125,0.2222222222222222
+Environment-Based Configuration Debt,recall,RF,8,0.039285714285714285,0.0,0.0

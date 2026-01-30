@@ -1,0 +1,10 @@
+label,eval_metric,model,rank,mean,median,iqr
+Security Debt,precision,chatgpt_facebook,1,0.9429682435077593,0.96,0.0357142857142857
+Security Debt,precision,chatgpt_rag_openai_precomputed,2,0.9225965580787605,0.9375,0.03263090676883773
+Security Debt,precision,deepseek_rag_openai_precomputed,3,0.8593249079110268,0.875,0.07317073170731725
+Security Debt,precision,gemini_facebook,4,0.8793507616577728,0.8666666666666667,0.09159301346801352
+Security Debt,precision,qwen_rag_openai_precomputed,5,0.8580391382369401,0.8529411764705882,0.09332230169744848
+Security Debt,precision,gemini_rag_openai_precomputed,5,0.8522211677533977,0.8529411764705882,0.08333333333333326
+Security Debt,precision,gemma_rag_openai_precomputed,6,0.7788757625550454,0.7872340425531915,0.03475958565244286
+Security Debt,precision,claude_rag_openai_precomputed,7,0.7368395599020997,0.7346938775510204,0.05887725881307404
+Security Debt,precision,claude_facebook,7,0.73736834184175,0.7291666666666666,0.049116671555244684

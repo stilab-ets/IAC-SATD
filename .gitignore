@@ -1,0 +1,17 @@
+venv/
+.venv/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.log
+*.pot
+*.prof
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+RQ2_LLMs_ML_experiments/LLMs_bootstrap/core/retriever/retriever_strategies/embed/

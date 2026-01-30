@@ -1,0 +1,9 @@
+label,eval_metric,model,rank,mean,median,iqr
+Environment-Based Configuration Debt,f1-score,chatgpt,1,0.5929219758078671,0.5882352941176471,0.06015037593984962
+Environment-Based Configuration Debt,f1-score,gemini,2,0.4880255692020398,0.5,0.09401709401709407
+Environment-Based Configuration Debt,f1-score,deepseek,2,0.5124462092529319,0.4705882352941176,0.07179487179487182
+Environment-Based Configuration Debt,f1-score,qwen,3,0.3899181910526448,0.4210526315789473,0.11965811965811962
+Environment-Based Configuration Debt,f1-score,gemma,4,0.3766712730682532,0.4,0.12864671560323732
+Environment-Based Configuration Debt,f1-score,claude,5,0.28998474269373176,0.2909090909090909,0.018014384620555268
+Environment-Based Configuration Debt,f1-score,LightGBM,6,0.18285714285714288,0.2,0.3636363636363636
+Environment-Based Configuration Debt,f1-score,RF,7,0.06603174603174604,0.0,0.0

@@ -1,0 +1,1324 @@
+Repo URL,Satd Comment Id,File Path Of First Occurence,File Path Of Last Occurence,renamed,Keyword,SATD Comment,context,bloc of first occurrence,bloc type of first occurrence,bloc of last occurrence,bloc type of last occurrence,SATD Comment Line Of First Occurence,SATD Comment Line Of Last Occurence,first Commit Hash,last Commit Hash,Link To The File Of First Occurence,Link To The File Of Last Occurence/When Adressed,Introduction Time,Last Occurence (even solved or not),number of commits,adressed ?
+https://github.com/mozilla/hubs-ops,86,terraform/modules/janus/main.tf,terraform/modules/janus/main.tf,0,todo,# TODO this causes large Janus CPU spike,"# TODO this causes large Janus CPU spike 
+ # sudo sed -i ""s/#RateLimitBurst=1000/RateLimitBurst=5000/"" /etc/systemd/journald.conf 
+ # sudo systemctl restart systemd-journald ",,,the block associated got renamed or deleted,,194,,2dff320c4c7d228f976cc44a86231799b5a691c0,f3000a3d9ef7d3cc6292780c2ea1f88b98bededd,https://github.com/mozilla/hubs-ops/blob/2dff320c4c7d228f976cc44a86231799b5a691c0/terraform/modules/janus/main.tf#L194,https://github.com/mozilla/hubs-ops/blob/f3000a3d9ef7d3cc6292780c2ea1f88b98bededd/terraform/modules/janus/main.tf,2018-05-29 21:59:16+00:00,2018-06-27 13:47:45-07:00,6,1
+https://github.com/Worklytics/psoxy,380,infra/examples-dev/aws-google-workspace/main.tf,infra/examples-dev/aws-google-workspace/main.tf,0,implementation,# other possibly implementations:,"# source = ""git::https://github.com/worklytics/psoxy//infra/modules/aws-ssm-secrets?ref=v0.4.4"" 
+ # other possibly implementations: 
+ # source = ""../../modules/hashicorp-vault-secrets"" 
+ # source = ""git::https://github.com/worklytics/psoxy//infra/modules/hashicorp-vault-secrets?ref=v0.4.4"" ",,,the block associated got renamed or deleted,,149,,a772d22c472e6f10bc22e0ee99f664835aa586a0,91db9f7da096aafa4756d2d2d2ea56d3bb9bbf7b,https://github.com/Worklytics/psoxy/blob/a772d22c472e6f10bc22e0ee99f664835aa586a0/infra/examples-dev/aws-google-workspace/main.tf#L149,https://github.com/Worklytics/psoxy/blob/91db9f7da096aafa4756d2d2d2ea56d3bb9bbf7b/infra/examples-dev/aws-google-workspace/main.tf,2022-09-29 17:43:37-07:00,2022-10-05 15:47:11-07:00,3,1
+https://github.com/alphagov/govuk-aws,934,terraform/projects/infra-security-groups/documentdb.tf,terraform/projects/infra-security-groups/documentdb.tf,0,# todo,# TODO: Add an entry for the security group containing the Licensify instances.,# TODO: Add an entry for the security group containing the Licensify instances.,,,the block associated got renamed or deleted,,34,,6db6a5e2795f7982b01622e573bc0eac6c381226,c2ebb0c630d6078ef4b331d148b16eeaeac1dce6,https://github.com/alphagov/govuk-aws/blob/6db6a5e2795f7982b01622e573bc0eac6c381226/terraform/projects/infra-security-groups/documentdb.tf#L34,https://github.com/alphagov/govuk-aws/blob/c2ebb0c630d6078ef4b331d148b16eeaeac1dce6/terraform/projects/infra-security-groups/documentdb.tf,2019-08-05 11:41:42+01:00,2019-08-15 15:26:29+01:00,4,1
+https://github.com/aws-observability/terraform-aws-observability-accelerator,49,workloads/infra/rules.tf,modules/workloads/infra/rules.tf,1,crap,"#         expr: node_textfile_scrape_error{job=""node-exporter""} == 1",,,,the block associated got renamed or deleted,,624,,de50a0dfb5dd8a18a6b206ead81a49679b85a857,60ab8b13bf236ceb04960b343b36383241d813db,https://github.com/aws-observability/terraform-aws-observability-accelerator/blob/de50a0dfb5dd8a18a6b206ead81a49679b85a857/workloads/infra/rules.tf#L624,https://github.com/aws-observability/terraform-aws-observability-accelerator/blob/60ab8b13bf236ceb04960b343b36383241d813db/modules/workloads/infra/rules.tf,2022-08-26 17:30:03+02:00,2022-08-26 17:30:03+02:00,2,1
+https://github.com/pingcap/tidb-operator,91,deploy/modules/gcp/tidb-cluster/data.tf,deploy/modules/gcp/tidb-cluster/data.tf,0,todo,# TODO Update related code when node locations is available in attributes of cluster resource.,# TODO Update related code when node locations is available in attributes of cluster resource.,,,,,24,24.0,32e1f58b34ea891d653e436f263485578df5ce63,32e1f58b34ea891d653e436f263485578df5ce63,https://github.com/pingcap/tidb-operator/blob/32e1f58b34ea891d653e436f263485578df5ce63/deploy/modules/gcp/tidb-cluster/data.tf#L24,https://github.com/pingcap/tidb-operator/blob/32e1f58b34ea891d653e436f263485578df5ce63/deploy/modules/gcp/tidb-cluster/data.tf#L24,2020-07-23 15:01:18+08:00,2020-07-23 15:01:18+08:00,1,0
+https://github.com/terraform-aws-modules/terraform-aws-eks,70,main.tf,main.tf,0,fix,"/** # terraform-aws-eks  * A terraform module to create a managed Kubernetes cluster on AWS EKS. Available * through the [Terraform registry](https://registry.terraform.io/modules/terraform-aws-modules/eks/aws). * Inspired by and adapted from [this doc](https://www.terraform.io/docs/providers/aws/guides/eks-getting-started.html) * and its [source code](https://github.com/terraform-providers/terraform-provider-aws/tree/master/examples/eks-getting-started). * Read the [AWS docs on EKS to get connected to the k8s dashboard](https://docs.aws.amazon.com/eks/latest/userguide/dashboard-tutorial.html).  * | Branch | Build status                                                                                                                                                      | * | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | * | master | [![build Status](https://travis-ci.org/terraform-aws-modules/terraform-aws-eks.svg?branch=master)](https://travis-ci.org/terraform-aws-modules/terraform-aws-eks) |  * ## Assumptions  ** You want to create an EKS cluster and an autoscaling group of workers for the cluster. ** You want these resources to exist within security groups that allow communication and coordination. These can be user provided or created within the module. ** You've created a Virtual Private Cloud (VPC) and subnets where you intend to put the EKS resources. ** If `manage_aws_auth = true`, it's required that both [`kubectl`](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl) (>=1.10) and [`aws-iam-authenticator`](https://github.com/kubernetes-sigs/aws-iam-authenticator#4-set-up-kubectl-to-use-authentication-tokens-provided-by-aws-iam-authenticator-for-kubernetes) are installed and on your shell's PATH.  * ## Usage example  * A full example leveraging other community modules is contained in the [examples/eks_test_fixture directory](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/examples/eks_test_fixture). Here's the gist of using it via the Terraform registry:  * ```hcl * module ""eks"" { *   source                = ""terraform-aws-modules/eks/aws"" *   cluster_name          = ""test-eks-cluster"" *   subnets               = [""subnet-abcde012"", ""subnet-bcde012a""] *   tags                  = {Environment = ""test""} *   vpc_id                = ""vpc-abcde012"" * } * ```  * ## Other Documentation * * - [Autoscaling](docs/autoscaling.md): How to enabled worker node autoscaling.  * ## Release schedule  * Generally the maintainers will try to release the module once every 2 weeks to * keep up with PR additions. If particularly pressing changes are added or maintainers * come up with the spare time (hah!), release may happen more often on occasion.  * ## Testing  * This module has been packaged with [awspec](https://github.com/k1LoW/awspec) tests through [kitchen](https://kitchen.ci/) and [kitchen-terraform](https://newcontext-oss.github.io/kitchen-terraform/). To run them:  * 1. Install [rvm](https://rvm.io/rvm/install) and the ruby version specified in the [Gemfile](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/Gemfile). * 2. Install bundler and the gems from our Gemfile: * *     ```bash *     gem install bundler && bundle install *     ``` * * 3. Ensure your AWS environment is configured (i.e. credentials and region) for test. * 4. Test using `bundle exec kitchen test` from the root of the repo.  * For now, connectivity to the kubernetes cluster is not tested but will be in the * future. Once the test fixture has converged, you can query the test cluster from * that terminal session with * ```bash * kubectl get nodes --watch --kubeconfig kubeconfig * ``` * (using default settings `config_output_path = ""./""` & `write_kubeconfig = true`)  * ## Doc generation  * Documentation should be modified within `main.tf` and generated using [terraform-docs](https://github.com/segmentio/terraform-docs). * * Install it with `go get github.com/segmentio/terraform-docs` or `brew install terraform-docs` and then use it to generate the `README.md` file: * * ``` * terraform-docs --with-aggregate-type-defaults md ./ | cat -s | tail -r | tail -n +2 | tail -r > README.md * ```  * ## Contributing  * Report issues/questions/feature requests on in the [issues](https://github.com/terraform-aws-modules/terraform-aws-eks/issues/new) section.  * Full contributing [guidelines are covered here](https://github.com/terraform-aws-modules/terraform-aws-eks/blob/master/CONTRIBUTING.md).  * ## IAM Permissions  * Testing and using this repo requires a minimum set of IAM permissions. Test permissions * are listed in the [eks_test_fixture README](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/examples/eks_test_fixture/README.md).  * ## Change log  * The [changelog](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/CHANGELOG.md) captures all important release notes.  * ## Authors  * Created and maintained by [Brandon O'Connor](https://github.com/brandoconnor) - brandon@atscale.run. * Many thanks to [the contributors listed here](https://github.com/terraform-aws-modules/terraform-aws-eks/graphs/contributors)!  * ## License  * MIT Licensed. See [LICENSE](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/LICENSE) for full details.*/","/** 
+ # terraform-aws-eks 
+  
+ * A terraform module to create a managed Kubernetes cluster on AWS EKS. Available 
+ * through the [Terraform registry](https://registry.terraform.io/modules/terraform-aws-modules/eks/aws). 
+ * Inspired by and adapted from [this doc](https://www.terraform.io/docs/providers/aws/guides/eks-getting-started.html) 
+ * and its [source code](https://github.com/terraform-providers/terraform-provider-aws/tree/master/examples/eks-getting-started). 
+ * Read the [AWS docs on EKS to get connected to the k8s dashboard](https://docs.aws.amazon.com/eks/latest/userguide/dashboard-tutorial.html). 
+  
+ * | Branch | Build status                                                                                                                                                      | 
+ * | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | 
+ * | master | [![build Status](https://travis-ci.org/terraform-aws-modules/terraform-aws-eks.svg?branch=master)](https://travis-ci.org/terraform-aws-modules/terraform-aws-eks) | 
+  
+ * ## Assumptions 
+  
+ ** You want to create an EKS cluster and an autoscaling group of workers for the cluster. 
+ ** You want these resources to exist within security groups that allow communication and coordination. These can be user provided or created within the module. 
+ ** You've created a Virtual Private Cloud (VPC) and subnets where you intend to put the EKS resources. 
+ ** If `manage_aws_auth = true`, it's required that both [`kubectl`](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl) (>=1.10) and [`aws-iam-authenticator`](https://github.com/kubernetes-sigs/aws-iam-authenticator#4-set-up-kubectl-to-use-authentication-tokens-provided-by-aws-iam-authenticator-for-kubernetes) are installed and on your shell's PATH. 
+  
+ * ## Usage example 
+  
+ * A full example leveraging other community modules is contained in the [examples/eks_test_fixture directory](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/examples/eks_test_fixture). Here's the gist of using it via the Terraform registry: 
+  
+ * ```hcl 
+ * module ""eks"" { 
+ *   source                = ""terraform-aws-modules/eks/aws"" 
+ *   cluster_name          = ""test-eks-cluster"" 
+ *   subnets               = [""subnet-abcde012"", ""subnet-bcde012a""] 
+ *   tags                  = {Environment = ""test""} 
+ *   vpc_id                = ""vpc-abcde012"" 
+ * } 
+ * ``` 
+  
+ * ## Other Documentation 
+ * 
+ * - [Autoscaling](docs/autoscaling.md): How to enabled worker node autoscaling. 
+  
+ * ## Release schedule 
+  
+ * Generally the maintainers will try to release the module once every 2 weeks to 
+ * keep up with PR additions. If particularly pressing changes are added or maintainers 
+ * come up with the spare time (hah!), release may happen more often on occasion. 
+  
+ * ## Testing 
+  
+ * This module has been packaged with [awspec](https://github.com/k1LoW/awspec) tests through [kitchen](https://kitchen.ci/) and [kitchen-terraform](https://newcontext-oss.github.io/kitchen-terraform/). To run them: 
+  
+ * 1. Install [rvm](https://rvm.io/rvm/install) and the ruby version specified in the [Gemfile](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/Gemfile). 
+ * 2. Install bundler and the gems from our Gemfile: 
+ * 
+ *     ```bash 
+ *     gem install bundler && bundle install 
+ *     ``` 
+ * 
+ * 3. Ensure your AWS environment is configured (i.e. credentials and region) for test. 
+ * 4. Test using `bundle exec kitchen test` from the root of the repo. 
+  
+ * For now, connectivity to the kubernetes cluster is not tested but will be in the 
+ * future. Once the test fixture has converged, you can query the test cluster from 
+ * that terminal session with 
+ * ```bash 
+ * kubectl get nodes --watch --kubeconfig kubeconfig 
+ * ``` 
+ * (using default settings `config_output_path = ""./""` & `write_kubeconfig = true`) 
+  
+ * ## Doc generation 
+  
+ * Documentation should be modified within `main.tf` and generated using [terraform-docs](https://github.com/segmentio/terraform-docs). 
+ * 
+ * Install it with `go get github.com/segmentio/terraform-docs` or `brew install terraform-docs` and then use it to generate the `README.md` file: 
+ * 
+ * ``` 
+ * terraform-docs --with-aggregate-type-defaults md ./ | cat -s | tail -r | tail -n +2 | tail -r > README.md 
+ * ``` 
+  
+ * ## Contributing 
+  
+ * Report issues/questions/feature requests on in the [issues](https://github.com/terraform-aws-modules/terraform-aws-eks/issues/new) section. 
+  
+ * Full contributing [guidelines are covered here](https://github.com/terraform-aws-modules/terraform-aws-eks/blob/master/CONTRIBUTING.md). 
+  
+ * ## IAM Permissions 
+  
+ * Testing and using this repo requires a minimum set of IAM permissions. Test permissions 
+ * are listed in the [eks_test_fixture README](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/examples/eks_test_fixture/README.md). 
+  
+ * ## Change log 
+  
+ * The [changelog](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/CHANGELOG.md) captures all important release notes. 
+  
+ * ## Authors 
+  
+ * Created and maintained by [Brandon O'Connor](https://github.com/brandoconnor) - brandon@atscale.run. 
+ * Many thanks to [the contributors listed here](https://github.com/terraform-aws-modules/terraform-aws-eks/graphs/contributors)! 
+  
+ * ## License 
+  
+ * MIT Licensed. See [LICENSE](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/LICENSE) for full details. 
+ */  ",,,the block associated got renamed or deleted,,1,,6d38ca4eadf341230ce510801bf806ffe3a39706,dfec7b100349d6a2aa9ec16cb47ebb4f5ce9bd3d,https://github.com/terraform-aws-modules/terraform-aws-eks/blob/6d38ca4eadf341230ce510801bf806ffe3a39706/main.tf#L1,https://github.com/terraform-aws-modules/terraform-aws-eks/blob/dfec7b100349d6a2aa9ec16cb47ebb4f5ce9bd3d/main.tf,2018-12-12 17:07:10+01:00,2018-12-14 10:02:13+01:00,2,1
+https://github.com/terraform-aws-modules/terraform-aws-eks,11,local.tf,local.tf,0,workaround,# Followed recommendation http://67bricks.com/blog/?p=85 to workaround terraform not supporting short circut evaluation,# Followed recommendation http://67bricks.com/blog/?p=85 to workaround terraform not supporting short circut evaluation,,,the block associated got renamed or deleted,,4,,59ced5fdb408f59a99c57e58f38d10335abb8db4,5902fe0fbc662e3af5846f7b5956cd8265c586d3,https://github.com/terraform-aws-modules/terraform-aws-eks/blob/59ced5fdb408f59a99c57e58f38d10335abb8db4/local.tf#L4,https://github.com/terraform-aws-modules/terraform-aws-eks/blob/5902fe0fbc662e3af5846f7b5956cd8265c586d3/local.tf,2018-06-27 11:23:19-04:00,2018-06-27 11:57:19-04:00,2,1
+https://github.com/rust-lang/simpleinfra,22,terragrunt/modules/ecs-app/ci.tf,terragrunt/modules/ecs-app/ci.tf,0,// todo,// TODO: reenanle,"// TODO: reenanle 
+ // IAM User used by GitHub Actions to pull and push images to ECR, and to 
+ // restart the ECS service once the image is uploaded. The credentials will 
+ // be added automatically to the GitHub Actions secrets.  
+ # module ""iam_ci"" { 
+ #   source = ""../gha-iam-user"" 
+ #   org    = split(""/"", var.repo)[0] 
+ #   repo   = split(""/"", var.repo)[1] 
+ # }  
+ # resource ""aws_iam_user_policy"" ""update_service"" { 
+ #   name = ""update-ecs-service"" 
+ #   user = module.iam_ci.user_name  
+ #   policy = jsonencode({ 
+ #     Version = ""2012-10-17"" 
+ #     Statement = [ 
+ #       { 
+ #         Sid      = ""AllowUpdate"" 
+ #         Effect   = ""Allow"" 
+ #         Action   = ""ecs:UpdateService"" 
+ #         Resource = module.ecs_service.arn 
+ #       } 
+ #     ] 
+ #   }) 
+ # }  
+ # resource ""aws_iam_user_policy_attachment"" ""ci_pull"" { 
+ #   user       = module.iam_ci.user_name 
+ #   policy_arn = module.ecr.policy_pull_arn 
+ # }  
+ # resource ""aws_iam_user_policy_attachment"" ""ci_push"" { 
+ #   user       = module.iam_ci.user_name 
+ #   policy_arn = module.ecr.policy_push_arn 
+ # } ",,,the block associated got renamed or deleted,,8,,34bd3fe4b3b6f6911b270e95b9374f4d415efcf6,796033567ed689abe21b44826f3ff4d5f0a83f6c,https://github.com/rust-lang/simpleinfra/blob/34bd3fe4b3b6f6911b270e95b9374f4d415efcf6/terragrunt/modules/ecs-app/ci.tf#L8,https://github.com/rust-lang/simpleinfra/blob/796033567ed689abe21b44826f3ff4d5f0a83f6c/terragrunt/modules/ecs-app/ci.tf,2023-01-11 14:57:26+01:00,2023-01-12 10:32:35+01:00,2,1
+https://github.com/google/go-cloud,2,samples/guestbook/gcp/main.tf,samples/guestbook/gcp/main.tf,0,# todo,# TODO(light): Add cloudbuild.googleapis.com resource.,"# TODO(light): Add cloudbuild.googleapis.com resource.  
+ # Service account for the running server ",,,the block associated got renamed or deleted,,24,,2f807406236dfb6b662001bea3c3dabe0dc79b1c,6375ec1a4cf75d40b1ce34aac207d3a14831307e,https://github.com/google/go-cloud/blob/2f807406236dfb6b662001bea3c3dabe0dc79b1c/samples/guestbook/gcp/main.tf#L24,https://github.com/google/go-cloud/blob/6375ec1a4cf75d40b1ce34aac207d3a14831307e/samples/guestbook/gcp/main.tf,2018-06-14 14:45:08-07:00,2018-06-21 16:54:06-06:00,3,1
+https://github.com/compiler-explorer/infra,1,terraform/cloudfront.tf,terraform/cloudfront.tf,0,todo,# TODO - the duplication is rubbish,# TODO - the duplication is rubbish,,,"resource ""aws_cloudfront_distribution"" ""compiler-explorer-com"" {
+  origin {
+    domain_name = ""compiler-explorer.s3.amazonaws.com""
+    origin_id   = ""S3-compiler-explorer""
+  }
+  origin {
+    domain_name = aws_alb.GccExplorerApp.dns_name
+    origin_id   = ""ALB-compiler-explorer""
+    custom_origin_config {
+      http_port                = 80
+      https_port               = 443
+      origin_read_timeout      = 60
+      origin_keepalive_timeout = 60
+      origin_protocol_policy   = ""https-only""
+      origin_ssl_protocols     = [
+        ""TLSv1"",
+        ""TLSv1.2"",
+        ""TLSv1.1""
+      ]
+    }
+  }
+
+  enabled          = true
+  is_ipv6_enabled  = true
+  retain_on_delete = true
+  aliases          = [
+    ""compiler-explorer.com"",
+    ""*.compiler-explorer.com""
+  ]
+
+  viewer_certificate {
+    acm_certificate_arn      = data.aws_acm_certificate.godbolt-org-et-al.arn
+    ssl_support_method       = ""sni-only""
+    minimum_protocol_version = ""TLSv1.1_2016""
+  }
+
+  logging_config {
+    include_cookies = false
+    bucket          = ""compiler-explorer-logs.s3.amazonaws.com""
+    prefix          = ""cloudfront/""
+  }
+
+  http_version = ""http2""
+
+  restrictions {
+    geo_restriction {
+      restriction_type = ""blacklist""
+      locations        = [
+        ""CU"",
+        ""IR"",
+        ""KP"",
+        ""SD"",
+        ""SY""
+      ]
+    }
+  }
+
+  # Message of the day stuff, served from s3
+  ordered_cache_behavior {
+    allowed_methods = [
+      ""GET"",
+      ""HEAD""
+    ]
+    cached_methods = [
+      ""GET"",
+      ""HEAD""
+    ]
+    forwarded_values {
+      cookies {
+        forward = ""none""
+      }
+      query_string = false
+    }
+    path_pattern           = ""motd/*""
+    target_origin_id       = ""S3-compiler-explorer""
+    viewer_protocol_policy = ""redirect-to-https""
+  }
+
+  # Admin stuff, also served from s3
+  ordered_cache_behavior {
+    allowed_methods = [
+      ""GET"",
+      ""HEAD""
+    ]
+    cached_methods = [
+      ""GET"",
+      ""HEAD""
+    ]
+    forwarded_values {
+      cookies {
+        forward = ""none""
+      }
+      query_string = false
+    }
+    path_pattern           = ""admin/*""
+    target_origin_id       = ""S3-compiler-explorer""
+    viewer_protocol_policy = ""redirect-to-https""
+  }
+
+  default_cache_behavior {
+    allowed_methods = [
+      ""HEAD"",
+      ""DELETE"",
+      ""POST"",
+      ""GET"",
+      ""OPTIONS"",
+      ""PUT"",
+      ""PATCH""
+    ]
+    cached_methods = [
+      ""HEAD"",
+      ""GET""
+    ]
+    forwarded_values {
+      cookies {
+        forward = ""none""
+      }
+      query_string = true
+      headers      = [
+        ""Accept"",
+        ""Host"",
+        ""CloudFront-Is-Mobile-Viewer""
+      ]
+    }
+    target_origin_id       = ""ALB-compiler-explorer""
+    viewer_protocol_policy = ""redirect-to-https""
+    compress               = true
+  }
+
+  custom_error_response {
+    error_code            = 503
+    response_code         = 503
+    error_caching_min_ttl = 5
+    response_page_path    = ""/admin/503.html""
+  }
+  web_acl_id = aws_wafv2_web_acl.compiler-explorer.arn
+}
+",resource,132,153.0,e243f7cde5cdaa9923c868e9b7160e26d84f06d9,9396f5f28ceffe52db6b0a555bb73c335513e151,https://github.com/compiler-explorer/infra/blob/e243f7cde5cdaa9923c868e9b7160e26d84f06d9/terraform/cloudfront.tf#L132,https://github.com/compiler-explorer/infra/blob/9396f5f28ceffe52db6b0a555bb73c335513e151/terraform/cloudfront.tf#L153,2018-09-03 22:19:49-05:00,2023-04-17 07:44:52-05:00,38,0
+https://github.com/awslabs/data-on-eks,35,ai-ml/trainium-inferentia/addons.tf,ai-ml/trainium-inferentia/addons.tf,0,implement,#   # Commented for visibility to implement this feature in the future,"#---------------------------------------------------------------
+# Create a Launch Template Userdata for Trainium, and use it in Karpenter, deprecated
+# This commented section of the pattern is commented due to lack of support in utilizing LaunchTemplates in newer Karpenter versions.
+# See full change list https://github.com/aws/karpenter-provider-aws/blob/d1d1371ae2e1552b8fdded7d343bf24ea18bee31/designs/v1beta1-full-changelist.md#remove-speclaunchtemplate
+#---------------------------------------------------------------
+# data ""cloudinit_config"" ""trn1_lt"" {
+#   base64_encode = true
+#   gzip          = false
+#   boundary      = ""//""
+
+#   # Prepend to existing user data supplied by AWS EKS
+#   part {
+#     content_type = ""text/x-shellscript""
+#     content      = <<-EOT
+#       cat <<-EOF > /etc/profile.d/bootstrap.sh
+#       #!/bin/sh
+
+#       # Configure NVMe volumes in RAID0 configuration
+#       # https://github.com/awslabs/amazon-eks-ami/blob/056e31f8c7477e893424abce468cb32bbcd1f079/files/bootstrap.sh#L35C121-L35C126
+#       # Mount will be: /mnt/k8s-disks
+#       export LOCAL_DISKS='raid0'
+
+#       # Install Neuron monitoring tools
+#       yum install aws-neuronx-tools-2.* -y
+#       export PATH=/opt/aws/neuron/bin:$PATH
+
+#       # EFA Setup for Trainium and Inferentia
+#       export FI_EFA_USE_DEVICE_RDMA=1
+#       export FI_PROVIDER=efa
+#       export FI_EFA_FORK_SAFE=1
+
+#       curl -O https://efa-installer.amazonaws.com/aws-efa-installer-latest.tar.gz
+#       tar -xf aws-efa-installer-latest.tar.gz && cd aws-efa-installer
+#       ./efa_installer.sh -y -g
+#       /opt/amazon/efa/bin/fi_info -p efa
+#       EOF
+
+#       # Source extra environment variables in bootstrap script
+#       sed -i '/^set -o errexit/a\\nsource /etc/profile.d/bootstrap.sh' /etc/eks/bootstrap.sh
+
+#       # Bootstrap the node
+#       B64_CLUSTER_CA=${module.eks.cluster_certificate_authority_data}
+#       API_SERVER_URL=${module.eks.cluster_endpoint}
+#       /etc/eks/bootstrap.sh ${local.name} --kubelet-extra-args ""--node-labels=eks.amazonaws.com/nodegroup-image=${data.aws_ami.eks_gpu.id}"" --b64-cluster-ca $B64_CLUSTER_CA --apiserver-endpoint $API_SERVER_URL
+
+#     EOT
+#   }
+# }
+
+#---------------------------------------------------------------
+# This Terraform code defines a data block to fetch the most recent Amazon Machine Image (AMI)
+# for an Amazon Elastic Kubernetes Service (EKS) cluster with GPU support.
+#---------------------------------------------------------------
+# data ""aws_ami"" ""eks_gpu"" {
+#   owners      = [""amazon""]
+#   most_recent = true
+
+#   filter {
+#     name   = ""name""
+#     values = [""amazon-eks-gpu-node-${var.eks_cluster_version}-*""]
+#   }
+# }
+
+
+# locals {
+#   karpenter_trn1_32xl_lt_name = format(""%s-trn132xl-lt"", local.name)
+# }
+
+#---------------------------------------------------------------
+# AWS Launch Template Configuration for Karpenter Trn1.32xlarge Instances
+#---------------------------------------------------------------
+# resource ""aws_launch_template"" ""trn1_lt"" {
+#   name        = local.karpenter_trn1_32xl_lt_name
+#   description = ""Karpenter Trn1.32xlarge Launch Template""
+
+#   user_data = data.cloudinit_config.trn1_lt.rendered
+
+#   ebs_optimized = true
+
+#   image_id = data.aws_ami.eks_gpu.id
+
+#   iam_instance_profile {
+#     name = module.eks_blueprints_addons.karpenter.node_instance_profile_name
+#   }
+
+#   # Commented for visibility to implement this feature in the future
+#   #  placement {
+#   #   tenancy = ""default""
+#   #   availability_zone = ""${local.region}d""
+#   #   group_name        = local.karpenter_trn1_32xl_lt_name
+#   # }
+
+#   metadata_options {
+#     http_endpoint               = ""enabled""
+#     http_tokens                 = ""required""
+#     http_put_response_hop_limit = 2
+#   }
+
+#   block_device_mappings {
+#     device_name = ""/dev/xvda""
+#     ebs {
+#       volume_size           = 100
+#       delete_on_termination = true
+#       volume_type           = ""gp3""
+#     }
+#   }
+
+#   monitoring {
+#     enabled = true
+#   }
+
+#   tag_specifications {
+#     resource_type = ""instance""
+
+#     tags = merge(local.tags, {
+#       ""karpenter.sh/discovery"" = local.name
+#     })
+#   }
+
+#   # First network interface with device_index=0 and network_card_index=0
+#   network_interfaces {
+#     device_index                = 0
+#     network_card_index          = 0
+#     associate_public_ip_address = false
+#     interface_type              = ""efa""
+#     delete_on_termination       = true
+#     security_groups             = [module.eks.node_security_group_id]
+#     description                 = ""Karpenter EFA config for Trainium""
+#   }
+
+#   # Additional network interfaces with device_index=1 and network_card_index ranging from 1 to 7
+#   dynamic ""network_interfaces"" {
+#     for_each = range(1, 8) # Create 7 additional network interfaces
+#     content {
+#       device_index                = 1
+#       network_card_index          = network_interfaces.value
+#       associate_public_ip_address = false
+#       interface_type              = ""efa""
+#       delete_on_termination       = true
+#       security_groups             = [module.eks.node_security_group_id]
+#       description                 = ""Karpenter EFA config for Trainium""
+#     }
+#   }
+# }
+
+# #---------------------------------------
+# # Karpenter Provisioners
+# #---------------------------------------
+# data ""kubectl_path_documents"" ""karpenter_provisioners"" {
+#   pattern = ""${path.module}/karpenter-provisioners/karpenter-*.yaml""
+#   vars = {
+#     azs                  = local.region
+#     eks_cluster_id       = local.name
+#     launch_template_name = local.karpenter_trn1_32xl_lt_name
+#   }
+# }
+
+# resource ""kubectl_manifest"" ""karpenter_provisioner"" {
+#   for_each  = toset(data.kubectl_path_documents.karpenter_provisioners.documents)
+#   yaml_body = each.value
+
+#   depends_on = [module.eks_blueprints_addons]
+# }",,,the block associated got renamed or deleted,,603,,e0abaadee27a73dc6ce0e4b5200fb1210e211809,c9f4435ebbbd1ed7801360e9c8e255f57c657b27,https://github.com/awslabs/data-on-eks/blob/e0abaadee27a73dc6ce0e4b5200fb1210e211809/ai-ml/trainium-inferentia/addons.tf#L603,https://github.com/awslabs/data-on-eks/blob/c9f4435ebbbd1ed7801360e9c8e255f57c657b27/ai-ml/trainium-inferentia/addons.tf,2024-01-31 16:45:26-08:00,2024-02-07 10:45:42-08:00,3,1
+https://github.com/alphagov/govuk-aws,62,terraform/projects/govuk-security-groups/api-redis.tf,terraform/projects/infra-security-groups/api-redis.tf,1,# todo,# TODO: uncomment this once the search hosts exist,"# TODO: uncomment this once the search hosts exist 
+ #resource ""aws_security_group_rule"" ""allow_search_in"" { 
+ #  type      = ""ingress"" 
+ #  from_port = 6379 
+ #  to_port   = 6379 
+ #  protocol  = ""tcp"" 
+ # 
+ #  # Which security group is the rule assigned to 
+ #  security_group_id = ""${aws_security_group.api-redis.id}"" 
+ # 
+ #  # Which security group can use this rule 
+ #  source_security_group_id = ""${aws_security_group.logs-elasticsearch.id}"" 
+ #}  ",,,the block associated got renamed or deleted,,24,,d180c6b718512ed74ae0158e6bbf47561e1f2bc5,0dc97450485c3b6613d80d266773aaecd184d0f8,https://github.com/alphagov/govuk-aws/blob/d180c6b718512ed74ae0158e6bbf47561e1f2bc5/terraform/projects/govuk-security-groups/api-redis.tf#L24,https://github.com/alphagov/govuk-aws/blob/0dc97450485c3b6613d80d266773aaecd184d0f8/terraform/projects/infra-security-groups/api-redis.tf,2017-07-14 10:26:59+01:00,2017-08-16 11:57:57+01:00,3,1
+https://github.com/kubernetes/k8s.io,323,infra/gcp/terraform/k8s-infra-porche-prod/network.tf,infra/gcp/terraform/k8s-infra-porche-prod/network.tf,0,#todo,"/*module ""lb-http"" {   source  = ""GoogleCloudPlatform/lb-http/google//modules/serverless_negs""   version = ""~> 7.0.0""    project = google_project.project.project_id   name    = var.project_id    # ...   backends = {     default = {       description = null       groups = [         for neg in google_compute_region_network_endpoint_group.default :         {           group = neg.id         }       ]       enable_cdn              = false       security_policy         = null       custom_request_headers  = null       custom_response_headers = null       compression_mode = null       protocol = null       port_name = null        iap_config = {         enable               = false         oauth2_client_id     = """"         oauth2_client_secret = """"       }        log_config = {         enable      = true         sample_rate = ""1.0""       }     }   }   create_address      = false   create_ipv6_address = false   enable_ipv6         = true   https_redirect      = true   #TODO(ameukam): current the TF resource google_compute_global_address don't have   #the value of IP in his attribute. But it's accessible with the data source:   #https://registry.terraform.io/providers/hashicorp/google/latest/docs/data-sources/compute_global_address   address      = data.google_compute_global_address.default_ipv4.address   ipv6_address = data.google_compute_global_address.default_ipv6.address   ssl                       = true   use_ssl_certificates      = true   #ssl_certificates = [   #  google_certificate_manager_certificate.artifacts-k8s-io.id,   #]   certificate_map = google_certificate_manager_certificate_map.artifacts-k8s-io.id }*/","/* 
+  
+ module ""lb-http"" { 
+ source  = ""GoogleCloudPlatform/lb-http/google//modules/serverless_negs"" 
+ version = ""~> 7.0.0"" 
+  
+ project = google_project.project.project_id 
+ name    = var.project_id 
+  
+ # ... 
+ backends = { 
+ default = { 
+ description = null 
+ groups = [ 
+ for neg in google_compute_region_network_endpoint_group.default : 
+ { 
+ group = neg.id 
+ } 
+ ] 
+ enable_cdn              = false 
+ security_policy         = null 
+ custom_request_headers  = null 
+ custom_response_headers = null 
+ compression_mode = null 
+ protocol = null 
+ port_name = null 
+  
+ iap_config = { 
+ enable               = false 
+ oauth2_client_id     = """" 
+ oauth2_client_secret = """" 
+ } 
+  
+ log_config = { 
+ enable      = true 
+ sample_rate = ""1.0"" 
+ } 
+ } 
+ } 
+ create_address      = false 
+ create_ipv6_address = false 
+ enable_ipv6         = true 
+ https_redirect      = true 
+ #TODO(ameukam): current the TF resource google_compute_global_address don't have 
+ #the value of IP in his attribute. But it's accessible with the data source: 
+ #https://registry.terraform.io/providers/hashicorp/google/latest/docs/data-sources/compute_global_address 
+ address      = data.google_compute_global_address.default_ipv4.address 
+ ipv6_address = data.google_compute_global_address.default_ipv6.address 
+ ssl                       = true 
+ use_ssl_certificates      = true 
+ #ssl_certificates = [ 
+ #  google_certificate_manager_certificate.artifacts-k8s-io.id, 
+ #] 
+ certificate_map = google_certificate_manager_certificate_map.artifacts-k8s-io.id 
+ } 
+  
+ */",,,,,142,142.0,7a8fe03afcd2c725f25bfffacba8499c783f86a5,7a8fe03afcd2c725f25bfffacba8499c783f86a5,https://github.com/kubernetes/k8s.io/blob/7a8fe03afcd2c725f25bfffacba8499c783f86a5/infra/gcp/terraform/k8s-infra-porche-prod/network.tf#L142,https://github.com/kubernetes/k8s.io/blob/7a8fe03afcd2c725f25bfffacba8499c783f86a5/infra/gcp/terraform/k8s-infra-porche-prod/network.tf#L142,2023-02-15 22:51:38-05:00,2023-02-15 22:51:38-05:00,1,0
+https://github.com/Azure/az-hop,8,tf/sig.tf,tf/sig.tf,0,todo,# TODO : create a loop with all the image definitions defined in the config.yml file,"# TODO : create a loop with all the image definitions defined in the config.yml file 
+ # resource ""azurerm_shared_image"" ""example"" { 
+ #   name                = ""my-image"" 
+ #   gallery_name        = azurerm_shared_image_gallery.sig.name 
+ #   resource_group_name = azurerm_resource_group.sig.name 
+ #   location            = azurerm_resource_group.sig.location 
+ #   os_type             = ""Linux""  
+ #   identifier { 
+ #     publisher = ""PublisherName"" 
+ #     offer     = ""OfferName"" 
+ #     sku       = ""ExampleSku"" 
+ #   } 
+ # } ",,,the block associated got renamed or deleted,,8,,ddda68c0323e5bbd9ca566b27d2c23bc02497a24,4ec8abdb100d7c55e345f93bfebdf048dc4b55e8,https://github.com/Azure/az-hop/blob/ddda68c0323e5bbd9ca566b27d2c23bc02497a24/tf/sig.tf#L8,https://github.com/Azure/az-hop/blob/4ec8abdb100d7c55e345f93bfebdf048dc4b55e8/tf/sig.tf,2021-02-17 11:25:33+00:00,2023-05-04 12:32:12+02:00,3,1
+https://github.com/GoogleCloudPlatform/cloud-foundation-fabric,1695,modules/compute-vm/tags.tf,modules/compute-vm/tags.tf,0,# todo,# TODO: re-implement once,"/** 
+ * Copyright 2022 Google LLC 
+ * 
+ * Licensed under the Apache License, Version 2.0 (the ""License""); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ * 
+ *      http://www.apache.org/licenses/LICENSE-2.0 
+ * 
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an ""AS IS"" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License. 
+ */  
+ # tfdoc:file:description Tag bindings.  
+ # TODO: re-implement once 
+ # - the provider accepts a project id in the parent without a permadiff 
+ # - the disk resource exposes an id that can be used to build the parent  
+ # locals { 
+ #   tag_parent_base = ( 
+ #     ""//compute.googleapis.com/projects/${var.project_id}/zones/${var.zone}"" 
+ #   ) 
+ # }  
+ # resource ""google_tags_location_tag_binding"" ""instance"" { 
+ #   for_each = var.create_template ? {} : coalesce(var.tag_bindings, {}) 
+ #   parent = ( 
+ #     ""${local.tag_parent_base}/instances/${google_compute_instance.default.0.instance_id}"" 
+ #   ) 
+ #   tag_value = each.value 
+ #   location  = var.zone 
+ # } ",,,the block associated got renamed or deleted,,19,,02ccc576f5d9d286d6ae22bf47245c0cfdb5ed6d,42fa742528b1161c778a9f71a6d470407acb73f0,https://github.com/GoogleCloudPlatform/cloud-foundation-fabric/blob/02ccc576f5d9d286d6ae22bf47245c0cfdb5ed6d/modules/compute-vm/tags.tf#L19,https://github.com/GoogleCloudPlatform/cloud-foundation-fabric/blob/42fa742528b1161c778a9f71a6d470407acb73f0/modules/compute-vm/tags.tf,2023-10-18 09:24:00+00:00,2023-12-01 11:27:37+00:00,2,1
+https://github.com/google/go-cloud,6,samples/guestbook/gcp/main.tf,samples/guestbook/gcp/main.tf,0,# todo,# TODO(light): Add storage-api.googleapis.com resource.,# TODO(light): Add storage-api.googleapis.com resource.,,,the block associated got renamed or deleted,,147,,2f807406236dfb6b662001bea3c3dabe0dc79b1c,6375ec1a4cf75d40b1ce34aac207d3a14831307e,https://github.com/google/go-cloud/blob/2f807406236dfb6b662001bea3c3dabe0dc79b1c/samples/guestbook/gcp/main.tf#L147,https://github.com/google/go-cloud/blob/6375ec1a4cf75d40b1ce34aac207d3a14831307e/samples/guestbook/gcp/main.tf,2018-06-14 14:45:08-07:00,2018-06-21 16:54:06-06:00,3,1
+https://github.com/nasa/cumulus,38,example/cumulus-tf/main.tf,example/cumulus-tf/main.tf,0,todo,# TODO Add this permission to example,"# TODO Add this aws_sns_topic_subscription 
+ # Subscribes to module.archive.aws_sns_topic.sftracker 
+ # - Endpoint: 
+ #     Fn::GetAtt: 
+ #       - SnsS3TestLambdaFunction 
+ #       - Arn 
+ #   Protocol: lambda  
+ # TODO Add this permission to example 
+ # Related to module.archive.aws_sns_topic.sftracker 
+ # sftracker2ndlambdaSubscriptionPermission: 
+ #   Type: AWS::Lambda::Permission 
+ #   Properties: 
+ #     FunctionName: 
+ #       Fn::GetAtt: 
+ #         - SnsS3TestLambdaFunction 
+ #         - Arn 
+ #     Action: lambda:InvokeFunction 
+ #     Principal: sns.amazonaws.com 
+ #     SourceArn: 
+ #       Ref: sftrackerSns ",,,the block associated got renamed or deleted,,77,,59283cd10c3891258816b76160848a494ffc35b7,965387f0c8733a7fc3ba8746173ff4f25bfd328c,https://github.com/nasa/cumulus/blob/59283cd10c3891258816b76160848a494ffc35b7/example/cumulus-tf/main.tf#L77,https://github.com/nasa/cumulus/blob/965387f0c8733a7fc3ba8746173ff4f25bfd328c/example/cumulus-tf/main.tf,2019-08-16 13:47:55-04:00,2019-09-06 10:48:26-04:00,4,1
+https://github.com/SUSE/ha-sap-terraform-deployments,999,libvirt/outputs.tf,libvirt/outputs.tf,0,implemented,# no bastion implemented,"# no ssh key used to connect 
+ #output ""ssh_private_key"" { 
+ #  value = var.private_key 
+ #} 
+ # 
+ #output ""ssh_public_key"" { 
+ #  value = var.public_key 
+ #}  
+ # no bastion implemented 
+ #output ""ssh_bastion_private_key"" { 
+ #  value = var.bastion_private_key == """" ? var.private_key : var.bastion_private_key 
+ #} 
+ # 
+ #output ""ssh_bastion_public_key"" { 
+ #  value = var.bastion_public_key == """" ? var.public_key : var.bastion_public_key 
+ #} ",,,,,110,106.0,28d6b66daf9df11926e800dd0fd8052d9514718a,2e76a8ab5092c3302513c4dbfc4a2f59e5bd383d,https://github.com/SUSE/ha-sap-terraform-deployments/blob/28d6b66daf9df11926e800dd0fd8052d9514718a/libvirt/outputs.tf#L110,https://github.com/SUSE/ha-sap-terraform-deployments/blob/2e76a8ab5092c3302513c4dbfc4a2f59e5bd383d/libvirt/outputs.tf#L106,2022-08-19 11:57:15+02:00,2022-08-19 11:57:18+02:00,2,0
+https://github.com/google/go-cloud,3,samples/guestbook/gcp/main.tf,samples/guestbook/gcp/main.tf,0,# todo,# TODO(light): Add cloudtrace.googleapis.com resource.,"# Stackdriver Tracing  
+ # TODO(light): Add cloudtrace.googleapis.com resource. ",,,the block associated got renamed or deleted,,39,,2f807406236dfb6b662001bea3c3dabe0dc79b1c,6375ec1a4cf75d40b1ce34aac207d3a14831307e,https://github.com/google/go-cloud/blob/2f807406236dfb6b662001bea3c3dabe0dc79b1c/samples/guestbook/gcp/main.tf#L39,https://github.com/google/go-cloud/blob/6375ec1a4cf75d40b1ce34aac207d3a14831307e/samples/guestbook/gcp/main.tf,2018-06-14 14:45:08-07:00,2018-06-21 16:54:06-06:00,3,1
+https://github.com/CDCgov/prime-simplereport,14,ops/services/nat_gateway/main.tf,ops/services/nat_gateway/main.tf,0,# todo,# TODO: uncomment everything below once Experian adjusts their IP allowlist as part of #2855,"# TODO: uncomment everything below once Experian adjusts their IP allowlist as part of #2855  
+ # resource ""azurerm_subnet_nat_gateway_association"" ""outbound_webapp"" { 
+ #   subnet_id      = var.subnet_webapp_id 
+ #   nat_gateway_id = azurerm_nat_gateway.outbound.id 
+ # }  
+ # resource ""azurerm_subnet_nat_gateway_association"" ""outbound_lb"" { 
+ #   subnet_id      = var.subnet_lb_id 
+ #   nat_gateway_id = azurerm_nat_gateway.outbound.id 
+ # }  
+ # resource ""azurerm_subnet_nat_gateway_association"" ""outbound_vm"" { 
+ #   subnet_id      = var.subnet_vm_id 
+ #   nat_gateway_id = azurerm_nat_gateway.outbound.id 
+ # } ",,,the block associated got renamed or deleted,,33,,8acbdb772db8e50766e295798fb2dc77063800d5,6931e29f88104069febc6471de9fab3da4514c66,https://github.com/CDCgov/prime-simplereport/blob/8acbdb772db8e50766e295798fb2dc77063800d5/ops/services/nat_gateway/main.tf#L33,https://github.com/CDCgov/prime-simplereport/blob/6931e29f88104069febc6471de9fab3da4514c66/ops/services/nat_gateway/main.tf,2021-11-02 15:15:19-04:00,2022-01-11 17:51:15-05:00,2,1
+https://github.com/terraform-aws-modules/terraform-aws-eks,72,main.tf,main.tf,0,fix,"/** # terraform-aws-eks  * A terraform module to create a managed Kubernetes cluster on AWS EKS. Available * through the [Terraform registry](https://registry.terraform.io/modules/terraform-aws-modules/eks/aws). * Inspired by and adapted from [this doc](https://www.terraform.io/docs/providers/aws/guides/eks-getting-started.html) * and its [source code](https://github.com/terraform-providers/terraform-provider-aws/tree/master/examples/eks-getting-started). * Read the [AWS docs on EKS to get connected to the k8s dashboard](https://docs.aws.amazon.com/eks/latest/userguide/dashboard-tutorial.html).  * | Branch | Build status                                                                                                                                                      | * | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | * | master | [![build Status](https://travis-ci.org/terraform-aws-modules/terraform-aws-eks.svg?branch=master)](https://travis-ci.org/terraform-aws-modules/terraform-aws-eks) |  * ## Assumptions  ** You want to create an EKS cluster and an autoscaling group of workers for the cluster. ** You want these resources to exist within security groups that allow communication and coordination. These can be user provided or created within the module. ** You've created a Virtual Private Cloud (VPC) and subnets where you intend to put the EKS resources. ** If `manage_aws_auth = true`, it's required that both [`kubectl`](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl) (>=1.10) and [`aws-iam-authenticator`](https://github.com/kubernetes-sigs/aws-iam-authenticator#4-set-up-kubectl-to-use-authentication-tokens-provided-by-aws-iam-authenticator-for-kubernetes) are installed and on your shell's PATH.  * ## Usage example  * A full example leveraging other community modules is contained in the [examples/eks_test_fixture directory](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/examples/eks_test_fixture). Here's the gist of using it via the Terraform registry:  * ```hcl * module ""eks"" { *   source                = ""terraform-aws-modules/eks/aws"" *   cluster_name          = ""test-eks-cluster"" *   subnets               = [""subnet-abcde012"", ""subnet-bcde012a""] *   tags                  = {Environment = ""test""} *   vpc_id                = ""vpc-abcde012"" * } * ```  * ## Other Documentation * * - [Autoscaling](docs/autoscaling.md): How to enabled worker node autoscaling.  * ## Release schedule  * Generally the maintainers will try to release the module once every 2 weeks to * keep up with PR additions. If particularly pressing changes are added or maintainers * come up with the spare time (hah!), release may happen more often on occasion.  * ## Testing  * This module has been packaged with [awspec](https://github.com/k1LoW/awspec) tests through [kitchen](https://kitchen.ci/) and [kitchen-terraform](https://newcontext-oss.github.io/kitchen-terraform/). To run them:  * 1. Install [rvm](https://rvm.io/rvm/install) and the ruby version specified in the [Gemfile](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/Gemfile). * 2. Install bundler and the gems from our Gemfile: * *     ```bash *     gem install bundler && bundle install *     ``` * * 3. Ensure your AWS environment is configured (i.e. credentials and region) for test. * 4. Test using `bundle exec kitchen test` from the root of the repo.  * For now, connectivity to the kubernetes cluster is not tested but will be in the * future. Once the test fixture has converged, you can query the test cluster from * that terminal session with * ```bash * kubectl get nodes --watch --kubeconfig kubeconfig * ``` * (using default settings `config_output_path = ""./""` & `write_kubeconfig = true`)  * ## Doc generation  * Documentation should be modified within `main.tf` and generated using [terraform-docs](https://github.com/segmentio/terraform-docs). * * Install it with `go get github.com/segmentio/terraform-docs` or `brew install terraform-docs` and then use it to generate the `README.md` file: * * ``` * terraform-docs --with-aggregate-type-defaults md ./ | sed -e '$ d' -e 'N;/^\n$/D;P;D' > README.md * ```  * ## Contributing  * Report issues/questions/feature requests on in the [issues](https://github.com/terraform-aws-modules/terraform-aws-eks/issues/new) section.  * Full contributing [guidelines are covered here](https://github.com/terraform-aws-modules/terraform-aws-eks/blob/master/CONTRIBUTING.md).  * ## IAM Permissions  * Testing and using this repo requires a minimum set of IAM permissions. Test permissions * are listed in the [eks_test_fixture README](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/examples/eks_test_fixture/README.md).  * ## Change log  * The [changelog](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/CHANGELOG.md) captures all important release notes.  * ## Authors  * Created and maintained by [Brandon O'Connor](https://github.com/brandoconnor) - brandon@atscale.run. * Many thanks to [the contributors listed here](https://github.com/terraform-aws-modules/terraform-aws-eks/graphs/contributors)!  * ## License  * MIT Licensed. See [LICENSE](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/LICENSE) for full details.*/","/** 
+ # terraform-aws-eks 
+  
+ * A terraform module to create a managed Kubernetes cluster on AWS EKS. Available 
+ * through the [Terraform registry](https://registry.terraform.io/modules/terraform-aws-modules/eks/aws). 
+ * Inspired by and adapted from [this doc](https://www.terraform.io/docs/providers/aws/guides/eks-getting-started.html) 
+ * and its [source code](https://github.com/terraform-providers/terraform-provider-aws/tree/master/examples/eks-getting-started). 
+ * Read the [AWS docs on EKS to get connected to the k8s dashboard](https://docs.aws.amazon.com/eks/latest/userguide/dashboard-tutorial.html). 
+  
+ * | Branch | Build status                                                                                                                                                      | 
+ * | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | 
+ * | master | [![build Status](https://travis-ci.org/terraform-aws-modules/terraform-aws-eks.svg?branch=master)](https://travis-ci.org/terraform-aws-modules/terraform-aws-eks) | 
+  
+ * ## Assumptions 
+  
+ ** You want to create an EKS cluster and an autoscaling group of workers for the cluster. 
+ ** You want these resources to exist within security groups that allow communication and coordination. These can be user provided or created within the module. 
+ ** You've created a Virtual Private Cloud (VPC) and subnets where you intend to put the EKS resources. 
+ ** If `manage_aws_auth = true`, it's required that both [`kubectl`](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl) (>=1.10) and [`aws-iam-authenticator`](https://github.com/kubernetes-sigs/aws-iam-authenticator#4-set-up-kubectl-to-use-authentication-tokens-provided-by-aws-iam-authenticator-for-kubernetes) are installed and on your shell's PATH. 
+  
+ * ## Usage example 
+  
+ * A full example leveraging other community modules is contained in the [examples/eks_test_fixture directory](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/examples/eks_test_fixture). Here's the gist of using it via the Terraform registry: 
+  
+ * ```hcl 
+ * module ""eks"" { 
+ *   source                = ""terraform-aws-modules/eks/aws"" 
+ *   cluster_name          = ""test-eks-cluster"" 
+ *   subnets               = [""subnet-abcde012"", ""subnet-bcde012a""] 
+ *   tags                  = {Environment = ""test""} 
+ *   vpc_id                = ""vpc-abcde012"" 
+ * } 
+ * ``` 
+  
+ * ## Other Documentation 
+ * 
+ * - [Autoscaling](docs/autoscaling.md): How to enabled worker node autoscaling. 
+  
+ * ## Release schedule 
+  
+ * Generally the maintainers will try to release the module once every 2 weeks to 
+ * keep up with PR additions. If particularly pressing changes are added or maintainers 
+ * come up with the spare time (hah!), release may happen more often on occasion. 
+  
+ * ## Testing 
+  
+ * This module has been packaged with [awspec](https://github.com/k1LoW/awspec) tests through [kitchen](https://kitchen.ci/) and [kitchen-terraform](https://newcontext-oss.github.io/kitchen-terraform/). To run them: 
+  
+ * 1. Install [rvm](https://rvm.io/rvm/install) and the ruby version specified in the [Gemfile](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/Gemfile). 
+ * 2. Install bundler and the gems from our Gemfile: 
+ * 
+ *     ```bash 
+ *     gem install bundler && bundle install 
+ *     ``` 
+ * 
+ * 3. Ensure your AWS environment is configured (i.e. credentials and region) for test. 
+ * 4. Test using `bundle exec kitchen test` from the root of the repo. 
+  
+ * For now, connectivity to the kubernetes cluster is not tested but will be in the 
+ * future. Once the test fixture has converged, you can query the test cluster from 
+ * that terminal session with 
+ * ```bash 
+ * kubectl get nodes --watch --kubeconfig kubeconfig 
+ * ``` 
+ * (using default settings `config_output_path = ""./""` & `write_kubeconfig = true`) 
+  
+ * ## Doc generation 
+  
+ * Documentation should be modified within `main.tf` and generated using [terraform-docs](https://github.com/segmentio/terraform-docs). 
+ * 
+ * Install it with `go get github.com/segmentio/terraform-docs` or `brew install terraform-docs` and then use it to generate the `README.md` file: 
+ * 
+ * ``` 
+ * terraform-docs --with-aggregate-type-defaults md ./ | sed -e '$ d' -e 'N;/^\n$/D;P;D' > README.md 
+ * ``` 
+  
+ * ## Contributing 
+  
+ * Report issues/questions/feature requests on in the [issues](https://github.com/terraform-aws-modules/terraform-aws-eks/issues/new) section. 
+  
+ * Full contributing [guidelines are covered here](https://github.com/terraform-aws-modules/terraform-aws-eks/blob/master/CONTRIBUTING.md). 
+  
+ * ## IAM Permissions 
+  
+ * Testing and using this repo requires a minimum set of IAM permissions. Test permissions 
+ * are listed in the [eks_test_fixture README](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/examples/eks_test_fixture/README.md). 
+  
+ * ## Change log 
+  
+ * The [changelog](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/CHANGELOG.md) captures all important release notes. 
+  
+ * ## Authors 
+  
+ * Created and maintained by [Brandon O'Connor](https://github.com/brandoconnor) - brandon@atscale.run. 
+ * Many thanks to [the contributors listed here](https://github.com/terraform-aws-modules/terraform-aws-eks/graphs/contributors)! 
+  
+ * ## License 
+  
+ * MIT Licensed. See [LICENSE](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/LICENSE) for full details. 
+ */  ",,,,,1,0.0,dfec7b100349d6a2aa9ec16cb47ebb4f5ce9bd3d,23a96e874318614f185797191586e4327f4782e3,https://github.com/terraform-aws-modules/terraform-aws-eks/blob/dfec7b100349d6a2aa9ec16cb47ebb4f5ce9bd3d/main.tf#L1,https://github.com/terraform-aws-modules/terraform-aws-eks/blob/23a96e874318614f185797191586e4327f4782e3/main.tf#L0,2018-12-14 10:02:13+01:00,2018-12-17 09:52:18+01:00,2,2
+https://github.com/google/go-cloud,4,samples/guestbook/gcp/main.tf,samples/guestbook/gcp/main.tf,0,# todo,# TODO(light): Add sqladmin.googleapis.com resource.,# TODO(light): Add sqladmin.googleapis.com resource.,,,the block associated got renamed or deleted,,53,,2f807406236dfb6b662001bea3c3dabe0dc79b1c,6375ec1a4cf75d40b1ce34aac207d3a14831307e,https://github.com/google/go-cloud/blob/2f807406236dfb6b662001bea3c3dabe0dc79b1c/samples/guestbook/gcp/main.tf#L53,https://github.com/google/go-cloud/blob/6375ec1a4cf75d40b1ce34aac207d3a14831307e/samples/guestbook/gcp/main.tf,2018-06-14 14:45:08-07:00,2018-06-21 16:54:06-06:00,3,1
+https://github.com/terraform-google-modules/terraform-google-project-factory,19,modules/core_project_factory/main.tf,modules/core_project_factory/main.tf,0,workaround,# Workaround for https://github.com/hashicorp/terraform/issues/10857,"shared_vpc_users_length = ""${local.gke_shared_vpc_enabled ? 4 : 3}""                                                                                                                     # Workaround for https://github.com/hashicorp/terraform/issues/10857 ",,,"locals {
+  use_random_string = try(var.random_project_id_length > 0, false)
+  group_id          = var.manage_group ? format(""group:%s"", var.group_email) : """"
+  base_project_id   = var.project_id == """" ? var.name : var.project_id
+  project_org_id    = var.folder_id != """" ? null : var.org_id
+  project_folder_id = var.folder_id != """" ? var.folder_id : null
+  temp_project_id = var.random_project_id ? format(
+    ""%s-%s"",
+    local.base_project_id,
+    local.use_random_string ? random_string.random_project_id_suffix[0].result : random_id.random_project_id_suffix.hex,
+  ) : local.base_project_id
+  s_account_fmt = var.create_project_sa ? format(
+    ""serviceAccount:%s"",
+    try(google_service_account.default_service_account[0].email, """"),
+  ) : """"
+  api_s_account = format(
+    ""%s@cloudservices.gserviceaccount.com"",
+    google_project.main.number,
+  )
+  activate_apis       = var.activate_apis
+  api_s_account_fmt   = format(""serviceAccount:%s"", local.api_s_account)
+  project_bucket_name = var.bucket_name != """" ? var.bucket_name : format(""%s-state"", local.temp_project_id)
+  create_bucket       = var.bucket_project != """" ? true : false
+
+  shared_vpc_users = compact(
+    [
+      local.group_id,
+      local.s_account_fmt,
+      local.api_s_account_fmt,
+    ],
+  )
+
+  # Workaround for https://github.com/hashicorp/terraform/issues/10857
+  shared_vpc_users_length = var.create_project_sa ? 3 : 2
+}
+",locals,47,66.0,56322b22c983c360d747bddc2b9157917e2b909e,cfd7f3f15e0866fe09cc5ec4a2f8e94398c773d9,https://github.com/terraform-google-modules/terraform-google-project-factory/blob/56322b22c983c360d747bddc2b9157917e2b909e/modules/core_project_factory/main.tf#L47,https://github.com/terraform-google-modules/terraform-google-project-factory/blob/cfd7f3f15e0866fe09cc5ec4a2f8e94398c773d9/modules/core_project_factory/main.tf#L66,2019-01-08 15:14:17-05:00,2024-05-17 18:11:28+00:00,103,0
+https://github.com/Worklytics/psoxy,1453,infra/examples-dev/aws-google-workspace/vault.tf,infra/examples-dev/aws-google-workspace/vault.tf,0,todo,## TODO - fill token env vars on lambdas,"#module ""aws_vault_auth"" { 
+ #  source = ""../../modules/aws-vault-auth"" 
+ # 
+ #  aws_vault_role_arn = var.aws_vault_role_arn 
+ #} 
+ # 
+ #module ""vault_psoxy"" { 
+ #  for_each = module.psoxy-aws-google-workspace.instances 
+ # 
+ #  source = ""../../modules/vault-psoxy"" 
+ # 
+ #  instance_id           = each.key 
+ #} 
+ # 
+ ## BEGIN AWS iam-based Auth 
+ #module ""aws_vault_connection_gcal"" { 
+ #  for_each = module.psoxy-aws-google-workspace.instances 
+ # 
+ #  source = ""../../modules/aws-vault-access"" 
+ # 
+ #  aws_auth_backend_name = module.aws_vault_auth.vault_aws_auth_backend_path 
+ #  instance_id           = each.key 
+ #  role_arn              = each.value.instance_role_arn 
+ #  vault_policy_name     = module.vault_psoxy[each.key].vault_policy_name 
+ #} 
+ ## END AWS iam-based Auth  
+ # 
+ ## BEGIN periodic token-based vault auth 
+ #module ""aws_vault_token"" { 
+ #  for_each = module.psoxy-aws-google-workspace.instances 
+ # 
+ #  source = ""../../modules/vault-access-token"" 
+ # 
+ #  instance_id           = each.key 
+ # 
+ #  vault_policy_name     = module.vault_psoxy[each.key].vault_policy_name 
+ #} 
+ # 
+ #locals { 
+ #  tokens_to_set = [ for k, v in module.aws_vault_token : "" - on `${k}` set `VAULT_TOKEN` = `${v.vault_token}`""] 
+ #} 
+ # 
+ ## unfortunately, no way to backfill these on per-lambda basis without deeper refactor 
+ #resource ""local_file"" ""fill_token_vars"" { 
+ #  filename = ""TODO 0 - fill VAULT_TOKEN env vars.md"" 
+ #  content = <<EOT 
+ ## TODO - fill token env vars on lambdas 
+ # 
+ #Via AWS console --> Lambdas: 
+ #${join(""\n"", local.tokens_to_set)} 
+ # 
+ #EOT 
+ #} 
+ # 
+ ## END periodic token-based vault auth ",,,,,62,72.0,f6f60a1c3c6fa3e2898c9b0c26a8430f0000bd7e,de496ca8bf20117dbb31db7021b07d22cb4579c3,https://github.com/Worklytics/psoxy/blob/f6f60a1c3c6fa3e2898c9b0c26a8430f0000bd7e/infra/examples-dev/aws-google-workspace/vault.tf#L62,https://github.com/Worklytics/psoxy/blob/de496ca8bf20117dbb31db7021b07d22cb4579c3/infra/examples-dev/aws-google-workspace/vault.tf#L72,2023-06-16 14:08:45-07:00,2023-06-28 10:02:05-07:00,2,0
+https://github.com/terraform-google-modules/terraform-google-bigquery,6,outputs.tf,outputs.tf,0,#todo,#TODO: Update the outputs,"/** 
+ * Copyright 2018 Google LLC 
+ * 
+ * Licensed under the Apache License, Version 2.0 (the ""License""); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ * 
+ *      http://www.apache.org/licenses/LICENSE-2.0 
+ * 
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an ""AS IS"" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License. 
+ */  
+ #TODO: Update the outputs ",,,the block associated got renamed or deleted,,17,,d56aa2c9a80343d60eed3e1a7d24962be31ee0b6,1d2f8c469b4b6e32985457b32c74ec9c481a5587,https://github.com/terraform-google-modules/terraform-google-bigquery/blob/d56aa2c9a80343d60eed3e1a7d24962be31ee0b6/outputs.tf#L17,https://github.com/terraform-google-modules/terraform-google-bigquery/blob/1d2f8c469b4b6e32985457b32c74ec9c481a5587/outputs.tf,2018-11-20 10:30:15-05:00,2018-12-28 14:01:22-05:00,2,1
+https://github.com/google/go-cloud,56,internal/cmd/gocdk/internal/static/_assets/provision/blob/gcsblob/mainlocal_gcpproject.tf,internal/cmd/gocdk/internal/static/_assets/provision/blob/gcsblob/mainlocal_gcpproject.tf,0,todo,# TODO prompt user for this!,"  gcp_project = ""go-cloud-test-216917"" # TODO prompt user for this!",,,,,2,0.0,487492d09699c393c6abe3f8f618fc82f67d4573,cdcfe3fa5fe9b5bc865510548d1d1bc381145c5d,https://github.com/google/go-cloud/blob/487492d09699c393c6abe3f8f618fc82f67d4573/internal/cmd/gocdk/internal/static/_assets/provision/blob/gcsblob/mainlocal_gcpproject.tf#L2,https://github.com/google/go-cloud/blob/cdcfe3fa5fe9b5bc865510548d1d1bc381145c5d/internal/cmd/gocdk/internal/static/_assets/provision/blob/gcsblob/mainlocal_gcpproject.tf#L0,2019-06-11 11:42:23-07:00,2019-06-14 09:44:48-07:00,2,2
+https://github.com/terraform-google-modules/terraform-google-lb-http,22,main.tf,main.tf,0,# todo,# TODO: Reenable,"# TODO: Reenable 
+ # resource ""google_compute_firewall"" ""default-hc"" { 
+ #   count         = length(var.firewall_networks) 
+ #   project       = length(var.firewall_networks) == 1 && var.firewall_projects[0] == ""default"" ? var.project : var.firewall_projects[count.index] 
+ #   name          = ""${var.name}-hc-${count.index}"" 
+ #   network       = length(var.firewall_networks) == 1 ? var.firewall_networks[0] : var.firewall_networks[count.index] 
+ #   source_ranges = [ 
+ #     ""130.211.0.0/22"", 
+ #     ""35.191.0.0/16"", 
+ #     ""209.85.152.0/22"", 
+ #     ""209.85.204.0/22""] 
+ #   target_tags   = var.target_tags  
+ #   dynamic ""allow"" { 
+ #     for_each = distinct(var.backend_params) 
+ #     content { 
+ #       protocol = ""tcp"" 
+ #       ports    = [ 
+ #         split("","", allow.value)[2]] 
+ #     } 
+ #   } 
+ # } ",,,the block associated got renamed or deleted,,203,,6749a85dc1ae2873024c6055218ca7a41daedb38,457f5bc38df273e15b5b2e32887188cbac87fc61,https://github.com/terraform-google-modules/terraform-google-lb-http/blob/6749a85dc1ae2873024c6055218ca7a41daedb38/main.tf#L203,https://github.com/terraform-google-modules/terraform-google-lb-http/blob/457f5bc38df273e15b5b2e32887188cbac87fc61/main.tf,2019-10-30 11:58:10+00:00,2019-10-30 12:05:57+00:00,2,1
+https://github.com/Worklytics/psoxy,1830,infra/examples-dev/aws-all/kms-cmek.tf,infra/examples-dev/aws-all/kms-cmek.tf,0,# todo,#  # TODO: can eliminate this if test tool doesn't assume role when uploading to bucket,"# uncomment to use encryption for S3 buckets and have it work properly for Cloud Watch Logs   
+ #locals { 
+ #  # TODO: can eliminate this if test tool doesn't assume role when uploading to bucket 
+ #  testing_policy_statements = var.provision_testing_infra ? [ 
+ #    { 
+ #      ""Sid"": ""Allow Test Users to Use Key"", 
+ #      ""Effect"": ""Allow"", 
+ #      ""Principal"": { # tests 
+ #        ""AWS"": ""arn:aws:iam::${var.aws_account_id}:role/${module.psoxy.caller_role_name}"" 
+ #      }, 
+ #      ""Action"": ""kms:*"", 
+ #      ""Resource"": ""*"" 
+ #    } 
+ #  ] : [] 
+ # 
+ #  # S3 bucket policy statements for bulk writer instances 
+ #  # explicitly allow each instance's exec role to use the key to encrypt, as it needs to write to 
+ #  # the output buckets 
+ #  bulk_writer_policy_statements = [ 
+ #    for instance in module.psoxy.bulk_connector_instances : { 
+ #      ""Effect"" : ""Allow"", 
+ #      ""Principal"" : { 
+ #         ""AWS"" : instance.instance_role_arn 
+ #      }, 
+ #      ""Action"" : [ 
+ #        ""kms:Encrypt"", 
+ #        ""kms:GenerateDataKey"", 
+ #      ], 
+ #      ""Resource"" : ""*"" 
+ #    } 
+ #  ] 
+ #} 
+ # 
+ #resource ""aws_kms_key_policy"" ""psoxy"" { 
+ #  key_id = var.project_aws_kms_key_arn 
+ #  policy = jsonencode( 
+ #    { 
+ #      ""Version"" : ""2012-10-17"", 
+ #      ""Id"" : ""psoxy-key-policy"", 
+ #      ""Statement"" : concat( 
+ #        [ 
+ #          # to allow Terraform to manage the key 
+ #          { 
+ #            ""Sid"": ""Allow IAM Users to Manage Key"", 
+ #            ""Effect"": ""Allow"", 
+ #            ""Principal"": { 
+ #              ""AWS"": ""arn:aws:iam::${var.aws_account_id}:root"" 
+ #            }, 
+ #            ""Action"": ""kms:*"", 
+ #            ""Resource"": ""*"" 
+ #          }, 
+ #          # to use for Cloud Watch Logs 
+ #          { 
+ #            ""Effect"" : ""Allow"", 
+ #            ""Principal"" : { 
+ #              ""Service"" : ""logs.${var.aws_region}.amazonaws.com"" 
+ #            }, 
+ #            ""Action"" : [ 
+ #              ""kms:Encrypt"", 
+ #              ""kms:Decrypt"", 
+ #              ""kms:ReEncrypt"", 
+ #              ""kms:GenerateDataKey"", 
+ #              ""kms:Describe"" 
+ #            ], 
+ #            ""Resource"" : ""*"" 
+ #          } 
+ #      ], 
+ #      local.bulk_writer_policy_statements, 
+ #      local.testing_policy_statements 
+ #      ) 
+ #    }) 
+ #} 
+ # 
+ #resource ""aws_s3_bucket_server_side_encryption_configuration"" ""input_bucket_encryption"" { 
+ #  for_each = module.psoxy.bulk_connector_instances 
+ # 
+ #  bucket = each.value.input_bucket 
+ # 
+ #  rule { 
+ #    apply_server_side_encryption_by_default { 
+ #      sse_algorithm = ""aws:kms"" 
+ #      kms_master_key_id = var.project_aws_kms_key_arn 
+ #    } 
+ #  } 
+ #} 
+ # 
+ #resource ""aws_s3_bucket_server_side_encryption_configuration"" ""sanitized_bucket_encryption"" { 
+ #  for_each = module.psoxy.bulk_connector_instances 
+ # 
+ #  bucket = each.value.sanitized_bucket 
+ # 
+ #  rule { 
+ #    apply_server_side_encryption_by_default { 
+ #      sse_algorithm = ""aws:kms"" 
+ #      kms_master_key_id = var.project_aws_kms_key_arn 
+ #    } 
+ #  } 
+ #} ",,,,,6,16.0,3d7c48b37702b03189d1e6d8a069067bd15267cd,ac8b4b0a42502aefd3a74c4d1923b7ba099a16b5,https://github.com/Worklytics/psoxy/blob/3d7c48b37702b03189d1e6d8a069067bd15267cd/infra/examples-dev/aws-all/kms-cmek.tf#L6,https://github.com/Worklytics/psoxy/blob/ac8b4b0a42502aefd3a74c4d1923b7ba099a16b5/infra/examples-dev/aws-all/kms-cmek.tf#L16,2023-06-28 03:28:19+00:00,2024-02-06 08:33:45-08:00,3,0
+https://github.com/mozilla/hubs-ops,335,terraform/modules/ret-db/main.tf,terraform/modules/ret-db/main.tf,0,# todo,"# TODO, this wasn't working yet, AWS complains about:","# TODO, this wasn't working yet, AWS complains about: 
+ # Instance: InvalidParameterValue: IAM role ARN value is invalid or does not include the required permissions for: ENHANCED_MONITORING 
+ # monitoring_interval = 30 
+ # monitoring_role_arn = ""${aws_iam_role.ret-db-monitoring.arn}""",,,,,150,168.0,f2034c747e9c96b72841364ff66df63203865acf,b197d6e6af9c598db0eff7e0ce9fcf33e65de795,https://github.com/mozilla/hubs-ops/blob/f2034c747e9c96b72841364ff66df63203865acf/terraform/modules/ret-db/main.tf#L150,https://github.com/mozilla/hubs-ops/blob/b197d6e6af9c598db0eff7e0ce9fcf33e65de795/terraform/modules/ret-db/main.tf#L168,2019-05-14 23:18:24+00:00,2019-05-15 00:47:17+00:00,2,0
+https://github.com/chanzuckerberg/cztack,2,aws-default-vpc-security/main.tf,aws-default-vpc-security/main.tf,0,todo,# TODO turn on flow logs for default vpc,"# TODO turn on flow logs for default vpc 
+ #   https://app.asana.com/0/335732894489412/503937337513570 
+ # resource ""aws_flow_log"" ""default_vpc_flow_logs"" { 
+ #   log_group_name = ""${var.vpc_flow_logs_group_name}"" 
+ #   iam_role_arn   = ""${var.vpc_flow_logs_iam_role_arn}"" 
+ #   vpc_id         = ""${aws_default_vpc.default.id}"" 
+ #   traffic_type   = ""ALL"" 
+ # }  ",,,,,90,90.0,038021ff34e8b2c5bce7a32400dca526838790df,b71a885f73472340541c8cb9f7bc1f5e279538a4,https://github.com/chanzuckerberg/cztack/blob/038021ff34e8b2c5bce7a32400dca526838790df/aws-default-vpc-security/main.tf#L90,https://github.com/chanzuckerberg/cztack/blob/b71a885f73472340541c8cb9f7bc1f5e279538a4/aws-default-vpc-security/main.tf#L90,2018-07-27 14:32:44-07:00,2021-06-25 11:33:29-04:00,4,0
+https://github.com/terraform-aws-modules/terraform-aws-eks,68,main.tf,main.tf,0,fix,"/** # terraform-aws-eks  * A terraform module to create a managed Kubernetes cluster on AWS EKS. Available * through the [Terraform registry](https://registry.terraform.io/modules/terraform-aws-modules/eks/aws). * Inspired by and adapted from [this doc](https://www.terraform.io/docs/providers/aws/guides/eks-getting-started.html) * and its [source code](https://github.com/terraform-providers/terraform-provider-aws/tree/master/examples/eks-getting-started). * Read the [AWS docs on EKS to get connected to the k8s dashboard](https://docs.aws.amazon.com/eks/latest/userguide/dashboard-tutorial.html).  * | Branch | Build status                                                                                                                                                      | * | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | * | master | [![build Status](https://travis-ci.org/terraform-aws-modules/terraform-aws-eks.svg?branch=master)](https://travis-ci.org/terraform-aws-modules/terraform-aws-eks) |  * ## Assumptions  ** You want to create an EKS cluster and an autoscaling group of workers for the cluster. ** You want these resources to exist within security groups that allow communication and coordination. These can be user provided or created within the module. ** You've created a Virtual Private Cloud (VPC) and subnets where you intend to put the EKS resources. ** If `manage_aws_auth = true`, it's required that both [`kubectl`](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl) (>=1.10) and [`aws-iam-authenticator`](https://github.com/kubernetes-sigs/aws-iam-authenticator#4-set-up-kubectl-to-use-authentication-tokens-provided-by-aws-iam-authenticator-for-kubernetes) are installed and on your shell's PATH.  * ## Usage example  * A full example leveraging other community modules is contained in the [examples/eks_test_fixture directory](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/examples/eks_test_fixture). Here's the gist of using it via the Terraform registry:  * ```hcl * module ""eks"" { *   source                = ""terraform-aws-modules/eks/aws"" *   cluster_name          = ""test-eks-cluster"" *   subnets               = [""subnet-abcde012"", ""subnet-bcde012a""] *   tags                  = {Environment = ""test""} *   vpc_id                = ""vpc-abcde012"" * } * ```  * ## Other Documentation * * - [Autoscaling](docs/autoscaling.md): How to enabled worker node autoscaling.  * ## Release schedule  * Generally the maintainers will try to release the module once every 2 weeks to * keep up with PR additions. If particularly pressing changes are added or maintainers * come up with the spare time (hah!), release may happen more often on occasion.  * ## Testing  * This module has been packaged with [awspec](https://github.com/k1LoW/awspec) tests through [kitchen](https://kitchen.ci/) and [kitchen-terraform](https://newcontext-oss.github.io/kitchen-terraform/). To run them:  * 1. Install [rvm](https://rvm.io/rvm/install) and the ruby version specified in the [Gemfile](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/Gemfile). * 2. Install bundler and the gems from our Gemfile: * *     ```bash *     gem install bundler && bundle install *     ``` * * 3. Ensure your AWS environment is configured (i.e. credentials and region) for test. * 4. Test using `bundle exec kitchen test` from the root of the repo.  * For now, connectivity to the kubernetes cluster is not tested but will be in the * future. Once the test fixture has converged, you can query the test cluster from * that terminal session with * ```bash * kubectl get nodes --watch --kubeconfig kubeconfig * ``` * (using default settings `config_output_path = ""./""` & `write_kubeconfig = true`)  * ## Doc generation  * Documentation should be modified within `main.tf` and generated using [terraform-docs](https://github.com/segmentio/terraform-docs). * Generate them like so:  * ```bash * go get github.com/segmentio/terraform-docs * terraform-docs md ./ | cat -s | tail -r | tail -n +2 | tail -r > README.md * ```  * ## Contributing  * Report issues/questions/feature requests on in the [issues](https://github.com/terraform-aws-modules/terraform-aws-eks/issues/new) section.  * Full contributing [guidelines are covered here](https://github.com/terraform-aws-modules/terraform-aws-eks/blob/master/CONTRIBUTING.md).  * ## IAM Permissions  * Testing and using this repo requires a minimum set of IAM permissions. Test permissions * are listed in the [eks_test_fixture README](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/examples/eks_test_fixture/README.md).  * ## Change log  * The [changelog](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/CHANGELOG.md) captures all important release notes.  * ## Authors  * Created and maintained by [Brandon O'Connor](https://github.com/brandoconnor) - brandon@atscale.run. * Many thanks to [the contributors listed here](https://github.com/terraform-aws-modules/terraform-aws-eks/graphs/contributors)!  * ## License  * MIT Licensed. See [LICENSE](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/LICENSE) for full details.*/","/** 
+ # terraform-aws-eks 
+  
+ * A terraform module to create a managed Kubernetes cluster on AWS EKS. Available 
+ * through the [Terraform registry](https://registry.terraform.io/modules/terraform-aws-modules/eks/aws). 
+ * Inspired by and adapted from [this doc](https://www.terraform.io/docs/providers/aws/guides/eks-getting-started.html) 
+ * and its [source code](https://github.com/terraform-providers/terraform-provider-aws/tree/master/examples/eks-getting-started). 
+ * Read the [AWS docs on EKS to get connected to the k8s dashboard](https://docs.aws.amazon.com/eks/latest/userguide/dashboard-tutorial.html). 
+  
+ * | Branch | Build status                                                                                                                                                      | 
+ * | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | 
+ * | master | [![build Status](https://travis-ci.org/terraform-aws-modules/terraform-aws-eks.svg?branch=master)](https://travis-ci.org/terraform-aws-modules/terraform-aws-eks) | 
+  
+ * ## Assumptions 
+  
+ ** You want to create an EKS cluster and an autoscaling group of workers for the cluster. 
+ ** You want these resources to exist within security groups that allow communication and coordination. These can be user provided or created within the module. 
+ ** You've created a Virtual Private Cloud (VPC) and subnets where you intend to put the EKS resources. 
+ ** If `manage_aws_auth = true`, it's required that both [`kubectl`](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl) (>=1.10) and [`aws-iam-authenticator`](https://github.com/kubernetes-sigs/aws-iam-authenticator#4-set-up-kubectl-to-use-authentication-tokens-provided-by-aws-iam-authenticator-for-kubernetes) are installed and on your shell's PATH. 
+  
+ * ## Usage example 
+  
+ * A full example leveraging other community modules is contained in the [examples/eks_test_fixture directory](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/examples/eks_test_fixture). Here's the gist of using it via the Terraform registry: 
+  
+ * ```hcl 
+ * module ""eks"" { 
+ *   source                = ""terraform-aws-modules/eks/aws"" 
+ *   cluster_name          = ""test-eks-cluster"" 
+ *   subnets               = [""subnet-abcde012"", ""subnet-bcde012a""] 
+ *   tags                  = {Environment = ""test""} 
+ *   vpc_id                = ""vpc-abcde012"" 
+ * } 
+ * ``` 
+  
+ * ## Other Documentation 
+ * 
+ * - [Autoscaling](docs/autoscaling.md): How to enabled worker node autoscaling. 
+  
+ * ## Release schedule 
+  
+ * Generally the maintainers will try to release the module once every 2 weeks to 
+ * keep up with PR additions. If particularly pressing changes are added or maintainers 
+ * come up with the spare time (hah!), release may happen more often on occasion. 
+  
+ * ## Testing 
+  
+ * This module has been packaged with [awspec](https://github.com/k1LoW/awspec) tests through [kitchen](https://kitchen.ci/) and [kitchen-terraform](https://newcontext-oss.github.io/kitchen-terraform/). To run them: 
+  
+ * 1. Install [rvm](https://rvm.io/rvm/install) and the ruby version specified in the [Gemfile](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/Gemfile). 
+ * 2. Install bundler and the gems from our Gemfile: 
+ * 
+ *     ```bash 
+ *     gem install bundler && bundle install 
+ *     ``` 
+ * 
+ * 3. Ensure your AWS environment is configured (i.e. credentials and region) for test. 
+ * 4. Test using `bundle exec kitchen test` from the root of the repo. 
+  
+ * For now, connectivity to the kubernetes cluster is not tested but will be in the 
+ * future. Once the test fixture has converged, you can query the test cluster from 
+ * that terminal session with 
+ * ```bash 
+ * kubectl get nodes --watch --kubeconfig kubeconfig 
+ * ``` 
+ * (using default settings `config_output_path = ""./""` & `write_kubeconfig = true`) 
+  
+ * ## Doc generation 
+  
+ * Documentation should be modified within `main.tf` and generated using [terraform-docs](https://github.com/segmentio/terraform-docs). 
+ * Generate them like so: 
+  
+ * ```bash 
+ * go get github.com/segmentio/terraform-docs 
+ * terraform-docs md ./ | cat -s | tail -r | tail -n +2 | tail -r > README.md 
+ * ``` 
+  
+ * ## Contributing 
+  
+ * Report issues/questions/feature requests on in the [issues](https://github.com/terraform-aws-modules/terraform-aws-eks/issues/new) section. 
+  
+ * Full contributing [guidelines are covered here](https://github.com/terraform-aws-modules/terraform-aws-eks/blob/master/CONTRIBUTING.md). 
+  
+ * ## IAM Permissions 
+  
+ * Testing and using this repo requires a minimum set of IAM permissions. Test permissions 
+ * are listed in the [eks_test_fixture README](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/examples/eks_test_fixture/README.md). 
+  
+ * ## Change log 
+  
+ * The [changelog](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/CHANGELOG.md) captures all important release notes. 
+  
+ * ## Authors 
+  
+ * Created and maintained by [Brandon O'Connor](https://github.com/brandoconnor) - brandon@atscale.run. 
+ * Many thanks to [the contributors listed here](https://github.com/terraform-aws-modules/terraform-aws-eks/graphs/contributors)! 
+  
+ * ## License 
+  
+ * MIT Licensed. See [LICENSE](https://github.com/terraform-aws-modules/terraform-aws-eks/tree/master/LICENSE) for full details. 
+ */  ",,,the block associated got renamed or deleted,,1,,31ec0f7db32d0b8b94cf1a7d3c0812db6731bd3b,6d38ca4eadf341230ce510801bf806ffe3a39706,https://github.com/terraform-aws-modules/terraform-aws-eks/blob/31ec0f7db32d0b8b94cf1a7d3c0812db6731bd3b/main.tf#L1,https://github.com/terraform-aws-modules/terraform-aws-eks/blob/6d38ca4eadf341230ce510801bf806ffe3a39706/main.tf,2018-10-25 17:46:32+02:00,2018-12-12 17:07:10+01:00,2,1
+https://github.com/rust-lang/simpleinfra,14,terragrunt/modules/docs-rs/web-server.tf,terragrunt/modules/docs-rs/web-server.tf,0,# todo,# TODO: configure web app,"# TODO: configure web app 
+ # module ""web"" { 
+ #   source         = ""../shared/modules/ecs-app"" 
+ #   cluster_config = data.terraform_remote_state.shared.outputs.ecs_cluster_config  
+ #   env  = ""prod"" 
+ #   name = ""docs-rs-web"" 
+ #   repo = ""rust-lang/docs.rs""  
+ #   cpu                  = 256 
+ #   memory               = 512 
+ #   tasks_count          = 1 
+ #   platform_version     = ""1.4.0"" 
+ #   ephemeral_storage_gb = 40  
+ #   environment = { 
+ #     DOCSRS_PREFIX               = ""/tmp"" 
+ #     DOCSRS_STORAGE_BACKEND      = ""s3"" 
+ #     DOCSRS_LOG                  = ""docs_rs=debug,rustwide=info"" 
+ #     RUST_BACKTRACE              = ""1"" 
+ #     DOCSRS_STATIC_CLOUDFRONT_ID = ""${aws_cloudfront_distribution.static.id}"" 
+ #   }  
+ #   secrets = { 
+ #     DOCSRS_GITHUB_ACCESSTOKEN = ""/prod/docs-rs/github-access-token"" 
+ #   }  
+ #   computed_secrets = { 
+ #     DOCSRS_DATABASE_URL = aws_ssm_parameter.connection_url.arn 
+ #   }  
+ #   expose_http = { 
+ #     container_port = 80 
+ #     prometheus     = ""/about/metrics"" 
+ #     domains        = [""docs-rs-web-prod.infra.rust-lang.org""]  
+ #     health_check_path     = ""/"" 
+ #     health_check_interval = 5 
+ #     health_check_timeout  = 2 
+ #   }  
+ #   # Allow database access 
+ #   additional_security_group_ids = [aws_security_group.web.id] 
+ # }  
+ # resource ""aws_iam_role_policy"" ""web"" { 
+ #   role = module.web.role_id 
+ #   name = ""inline""  
+ #   policy = jsonencode({ 
+ #     Version = ""2012-10-17"" 
+ #     Statement = [ 
+ #       { 
+ #         Effect = ""Allow"" 
+ #         Action = [ 
+ #           ""s3:PutObject"", 
+ #           ""s3:GetObjectTagging"", 
+ #           ""s3:PutObjectTagging"", 
+ #           ""s3:GetObject"", 
+ #           ""s3:PutObjectAcl"", 
+ #           ""s3:ListBucket"", 
+ #           ""s3:DeleteObject"", 
+ #         ] 
+ #         Resource = [ 
+ #           ""arn:aws:s3:::rust-docs-rs"", 
+ #           ""arn:aws:s3:::rust-docs-rs/*"", 
+ #         ] 
+ #       }, 
+ #       { 
+ #         Effect = ""Allow"" 
+ #         Action = [ 
+ #           ""cloudfront:CreateInvalidation"", 
+ #           ""cloudfront:GetInvalidation"", 
+ #           ""cloudfront:ListInvalidations"", 
+ #         ] 
+ #         Resource = [ 
+ #           aws_cloudfront_distribution.webapp.arn, 
+ #           aws_cloudfront_distribution.static.arn, 
+ #         ] 
+ #       }, 
+ #     ] 
+ #   }) 
+ # } ",,,the block associated got renamed or deleted,,6,,0b061f4b31ad08a3761960de431377549e76d0c4,8d588e18da3b236eaa53a9920a5af7219450cf75,https://github.com/rust-lang/simpleinfra/blob/0b061f4b31ad08a3761960de431377549e76d0c4/terragrunt/modules/docs-rs/web-server.tf#L6,https://github.com/rust-lang/simpleinfra/blob/8d588e18da3b236eaa53a9920a5af7219450cf75/terragrunt/modules/docs-rs/web-server.tf,2023-01-04 17:28:18+01:00,2023-01-10 20:16:01+01:00,2,1
+https://github.com/mozilla/hubs-ops,138,terraform/modules/ret/main.tf,terraform/modules/ret/main.tf,0,todo,# TODO kill,# TODO kill,,,the block associated got renamed or deleted,,648,,f45cc1d464a1e1b95c61640bcdb17c8574c7d633,f75498ed97a073686e0d920232ec621f96603119,https://github.com/mozilla/hubs-ops/blob/f45cc1d464a1e1b95c61640bcdb17c8574c7d633/terraform/modules/ret/main.tf#L648,https://github.com/mozilla/hubs-ops/blob/f75498ed97a073686e0d920232ec621f96603119/terraform/modules/ret/main.tf,2019-04-28 23:18:12+00:00,2019-04-30 04:22:51+00:00,7,1
+https://github.com/mozilla/hubs-ops,111,terraform/modules/ret/main.tf,terraform/modules/ret/main.tf,0,hack,# HACK: This whitelists for ring overall to avoid cycle between janus/ret terraform scripts,"# Outbound Janus admin for load balancing 
+ # HACK: This whitelists for ring overall to avoid cycle between janus/ret terraform scripts",,,,,170,272.0,50465c108326e8e9d7e15f281f5d853d6985e2de,faca27214044d82157d7b81c93c86d2d11ef7a36,https://github.com/mozilla/hubs-ops/blob/50465c108326e8e9d7e15f281f5d853d6985e2de/terraform/modules/ret/main.tf#L170,https://github.com/mozilla/hubs-ops/blob/faca27214044d82157d7b81c93c86d2d11ef7a36/terraform/modules/ret/main.tf#L272,2018-12-28 00:13:14+00:00,2022-01-10 20:45:44-05:00,44,0
+https://github.com/terraform-google-modules/terraform-google-bigquery,70,modules/data_warehouse/workflows.tf,modules/data_warehouse/workflows.tf,0,# todo,# TODO: Expand testing to support more dynamic polling of workflow state,"# TODO: Expand testing to support more dynamic polling of workflow state 
+ # module ""workflow_polling_1"" { 
+ #   source = ""./workflow_polling""  
+ #   workflow_id          = google_workflows_workflow.workflow.id 
+ #   input_workflow_state = null  
+ #   depends_on = [ 
+ #     google_storage_bucket.raw_bucket, 
+ #     google_bigquery_routine.sp_bigqueryml_generate_create, 
+ #     google_bigquery_routine.sp_bigqueryml_model, 
+ #     google_bigquery_routine.sproc_sp_demo_lookerstudio_report, 
+ #     google_bigquery_routine.sp_provision_lookup_tables, 
+ #     google_workflows_workflow.workflow, 
+ #     google_storage_bucket.raw_bucket, 
+ #     google_cloudfunctions2_function.notebook_deploy_function, 
+ #     time_sleep.wait_after_function, 
+ #     google_service_account_iam_member.workflow_auth_function 
+ #   ] 
+ # }  
+ # module ""workflow_polling_2"" { 
+ #   source      = ""./workflow_polling"" 
+ #   workflow_id = google_workflows_workflow.workflow.id  
+ #   input_workflow_state = module.workflow_polling_1.workflow_state  
+ #   depends_on = [ 
+ #     module.workflow_polling_1 
+ #   ] 
+ # }  
+ # module ""workflow_polling_3"" { 
+ #   source      = ""./workflow_polling"" 
+ #   workflow_id = google_workflows_workflow.workflow.id  
+ #   input_workflow_state = module.workflow_polling_2.workflow_state  
+ #   depends_on = [ 
+ #     module.workflow_polling_2 
+ #   ] 
+ # }  
+ # module ""workflow_polling_4"" { 
+ #   source      = ""./workflow_polling"" 
+ #   workflow_id = google_workflows_workflow.workflow.id  
+ #   input_workflow_state = module.workflow_polling_3.workflow_state  
+ #   depends_on = [ 
+ #     module.workflow_polling_3 
+ #   ] 
+ # } ",,,,,107,107.0,6878eb6cc830544edd7f0345cd644f3929f46681,6878eb6cc830544edd7f0345cd644f3929f46681,https://github.com/terraform-google-modules/terraform-google-bigquery/blob/6878eb6cc830544edd7f0345cd644f3929f46681/modules/data_warehouse/workflows.tf#L107,https://github.com/terraform-google-modules/terraform-google-bigquery/blob/6878eb6cc830544edd7f0345cd644f3929f46681/modules/data_warehouse/workflows.tf#L107,2024-03-25 14:56:52-06:00,2024-03-25 14:56:52-06:00,1,0
+https://github.com/magma/magma,6,orc8r/cloud/deploy/terraform/orc8r-helm-aws/logging.tf,orc8r/cloud/deploy/terraform/orc8r-helm-aws/logging.tf,0,# todo,# TODO: add helm chart for k8s cluster logging as optional component,# TODO: add helm chart for k8s cluster logging as optional component,,,,,139,204.0,b9b8985b34de1ac0705a8f1d7f584b4f9ccf8a94,ce1e8ce03c79557819545a7d1aeb97d73652b596,https://github.com/magma/magma/blob/b9b8985b34de1ac0705a8f1d7f584b4f9ccf8a94/orc8r/cloud/deploy/terraform/orc8r-helm-aws/logging.tf#L139,https://github.com/magma/magma/blob/ce1e8ce03c79557819545a7d1aeb97d73652b596/orc8r/cloud/deploy/terraform/orc8r-helm-aws/logging.tf#L204,2020-03-09 11:34:40-07:00,2021-12-14 09:59:14-08:00,12,0
+https://github.com/alphagov/govuk-aws,63,terraform/projects/govuk-security-groups/backend-redis.tf,terraform/projects/infra-security-groups/backend-redis.tf,1,# todo,# TODO: uncomment this once the backend hosts exist,"# TODO: uncomment this once the backend hosts exist 
+ #resource ""aws_security_group_rule"" ""allow_search_in"" { 
+ #  type      = ""ingress"" 
+ #  from_port = 6379 
+ #  to_port   = 6379 
+ #  protocol  = ""tcp"" 
+ # 
+ #  # Which security group is the rule assigned to 
+ #  security_group_id = ""${aws_security_group.backend-redis.id}"" 
+ # 
+ #  # Which security group can use this rule 
+ #  source_security_group_id = ""${aws_security_group.backend.id}"" 
+ #}  ",,,the block associated got renamed or deleted,,24,,36f29053fc49ce15c0a3844d1faa5de8681b5369,d9544cee29a9ea5d0140117dfffed8a8bd8dcd5f,https://github.com/alphagov/govuk-aws/blob/36f29053fc49ce15c0a3844d1faa5de8681b5369/terraform/projects/govuk-security-groups/backend-redis.tf#L24,https://github.com/alphagov/govuk-aws/blob/d9544cee29a9ea5d0140117dfffed8a8bd8dcd5f/terraform/projects/infra-security-groups/backend-redis.tf,2017-07-14 13:25:00+01:00,2017-08-30 13:31:20+01:00,3,1
+https://github.com/RhinoSecurityLabs/cloudgoat,2,scenarios/lambda_injection_privesc/terraform/lambda.tf,scenarios/vulnerable_lambda/terraform/lambda.tf,1,implement,"# The hope was to have a second exploit path that was more realistic, but there were issues while implementing ","# The below code is intended to be a second lambda that is also vulnerable to SQL injection. 
+ # The hope was to have a second exploit path that was more realistic, but there were issues while implementing 
+ # the injection concept. If it can be reworked/finished this would be a value add. 
+ # # policy applier lambda 2 (vulnerable to sql injection) 
+ # resource ""aws_iam_role"" ""policy_applier_lambda2"" { 
+ #   name = ""${var.cgid}-policy_applier_lambda2""  
+ #   inline_policy { 
+ #     name = ""policy_applier_lambda2""  
+ #     policy = jsonencode({ 
+ #       Version = ""2012-10-17"" 
+ #       Statement = [ 
+ #         { 
+ #           Action   = ""iam:AttachUserPolicy"" 
+ #           Effect   = ""Allow"" 
+ #           Resource = aws_iam_user.bilbo.arn 
+ #         }, 
+ #         { 
+ #           Action   = ""s3:GetObject"" 
+ #           Effect   = ""Allow"" 
+ #           Resource = ""*"" 
+ #         }, 
+ #         { 
+ #             ""Effect"": ""Allow"", 
+ #             ""Action"": ""logs:CreateLogGroup"", 
+ #             ""Resource"": ""arn:aws:logs:*:*:*"" 
+ #         }, 
+ #         { 
+ #             ""Effect"": ""Allow"", 
+ #             ""Action"": [ 
+ #                 ""logs:CreateLogStream"", 
+ #                 ""logs:PutLogEvents"" 
+ #             ], 
+ #             ""Resource"": [ 
+ #                 ""arn:aws:logs:*:*:log-group:*:*"" 
+ #             ] 
+ #         } 
+ #       ] 
+ #     }) 
+ #   }  
+ #   assume_role_policy = <<EOF 
+ # { 
+ #   ""Version"": ""2012-10-17"", 
+ #   ""Statement"": [ 
+ #     { 
+ #       ""Action"": ""sts:AssumeRole"", 
+ #       ""Principal"": { 
+ #         ""Service"": ""lambda.amazonaws.com"" 
+ #       }, 
+ #       ""Effect"": ""Allow"", 
+ #       ""Sid"": """" 
+ #     } 
+ #   ] 
+ # } 
+ # EOF 
+ # }  
+ # data ""archive_file"" ""policy_applier_lambda2_zip"" { 
+ #   type        = ""zip"" 
+ #   source_dir  = ""lambda_source_code/policy_applier_lambda2_src"" 
+ #   output_path = ""lambda_source_code/archives/policy_applier_lambda2_src.zip"" 
+ # }  
+ # resource ""aws_lambda_function"" ""policy_applier_lambda2"" { 
+ #   filename      = data.archive_file.policy_applier_lambda2_zip.output_path 
+ #   function_name = ""${var.cgid}-policy_applier_lambda2"" 
+ #   role          = aws_iam_role.policy_applier_lambda2.arn 
+ #   handler       = ""main.handler"" 
+ #   description   =  ""This function will apply a managed policy to the user of your choice, so long as the database says that it's okay..."" 
+ #   source_code_hash = filebase64sha256(data.archive_file.policy_applier_lambda2_zip.output_path) 
+ #   runtime = ""python3.9"" 
+ # }  
+ # #invocation-target-lambda 
+ # resource ""aws_iam_role"" ""target_lambda"" { 
+ #   name = ""cg-${var.cgid}-target_lambda""  
+ #   assume_role_policy = <<EOF 
+ # { 
+ #   ""Version"": ""2012-10-17"", 
+ #   ""Statement"": [ 
+ #     { 
+ #       ""Action"": ""sts:AssumeRole"", 
+ #       ""Principal"": { 
+ #         ""Service"": ""lambda.amazonaws.com"" 
+ #       }, 
+ #       ""Effect"": ""Allow"", 
+ #       ""Sid"": """" 
+ #     } 
+ #   ] 
+ # } 
+ # EOF 
+ # }  
+ # data ""archive_file"" ""target_lambda_zip"" { 
+ #     type        = ""zip"" 
+ #     source_dir  = ""lambda_source_code/target_lambda_src"" 
+ #     output_path = ""lambda_source_code/archives/target_lambda_src.zip"" 
+ # }  
+ # resource ""aws_lambda_function"" ""target_lambda"" { 
+ #   filename      = data.archive_file.target_lambda_zip.output_path 
+ #   function_name = ""cg-${var.cgid}-target_lambda"" 
+ #   role          = aws_iam_role.target_lambda.arn 
+ #   handler       = ""main.handler"" 
+ #   description   = ""Invoke this function correctly and you win this scenario."" 
+ #   source_code_hash = filebase64sha256(data.archive_file.target_lambda_zip.output_path) 
+ #   runtime = ""python3.9"" 
+ # } ",,,,,74,69.0,78e7274a5ab490431817494e633fafa11ef67976,532bd4b14cef5b13d7e413832863aa39b357bfa6,https://github.com/RhinoSecurityLabs/cloudgoat/blob/78e7274a5ab490431817494e633fafa11ef67976/scenarios/lambda_injection_privesc/terraform/lambda.tf#L74,https://github.com/RhinoSecurityLabs/cloudgoat/blob/532bd4b14cef5b13d7e413832863aa39b357bfa6/scenarios/vulnerable_lambda/terraform/lambda.tf#L69,2021-11-07 17:43:49-08:00,2024-01-25 15:58:27-07:00,2,0
+https://github.com/GoogleCloudPlatform/cloud-foundation-fabric,1730,modules/compute-vm/tags.tf,modules/compute-vm/tags.tf,0,# todo,# TODO: re-implement once the following have been addressed in the provider,"/** 
+ * Copyright 2022 Google LLC 
+ * 
+ * Licensed under the Apache License, Version 2.0 (the ""License""); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ * 
+ *      http://www.apache.org/licenses/LICENSE-2.0 
+ * 
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an ""AS IS"" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License. 
+ */  
+ # tfdoc:file:description Tag bindings.  
+ # TODO: re-implement once the following have been addressed in the provider 
+ # - permadiff in google_tags_location_tag_binding which returns a project 
+ #   number in the tag id even when a project id is set 
+ # - no numeric id exposed from the google_compute_disk resource making it 
+ #   impossible to derive the tag binding parent 
+ # - google_compute_instance.params.resource_manager_tags and 
+ #   google_compute_instance.boot_disk.initialize_params.resource_manager_tags 
+ #   attributes need a map of tag key => tag value, while only the tag value 
+ #   is really needed by the API  
+ # resource ""google_tags_location_tag_binding"" ""instance"" { 
+ #   for_each = var.create_template ? {} : coalesce(var.tag_bindings, {}) 
+ #   parent = ( 
+ #     ""${local.tag_parent_base}/instances/${google_compute_instance.default.0.instance_id}"" 
+ #   ) 
+ #   tag_value = each.value 
+ #   location  = var.zone 
+ # } ",,,,,19,19.0,42fa742528b1161c778a9f71a6d470407acb73f0,3af7e257d21f889ffaf7b32a3bab974fdbfda6e4,https://github.com/GoogleCloudPlatform/cloud-foundation-fabric/blob/42fa742528b1161c778a9f71a6d470407acb73f0/modules/compute-vm/tags.tf#L19,https://github.com/GoogleCloudPlatform/cloud-foundation-fabric/blob/3af7e257d21f889ffaf7b32a3bab974fdbfda6e4/modules/compute-vm/tags.tf#L19,2023-12-01 11:27:37+00:00,2024-04-17 10:23:48+02:00,2,0
+https://github.com/compiler-explorer/infra,28,terraform/security.tf,terraform/security.tf,0,todo,// TODO is there a way to refer to this (external) parameter (CC @Cosaquee),// TODO is there a way to refer to this (external) parameter (CC @Cosaquee),,,the block associated got renamed or deleted,,223,,ad087c800e2d8aa141bdc8c36b4ae8b342ee76f2,b95d2fa4883a28322df51001553dcf38d0638d09,https://github.com/compiler-explorer/infra/blob/ad087c800e2d8aa141bdc8c36b4ae8b342ee76f2/terraform/security.tf#L223,https://github.com/compiler-explorer/infra/blob/b95d2fa4883a28322df51001553dcf38d0638d09/terraform/security.tf,2019-05-05 09:53:29-05:00,2021-09-02 18:02:04-05:00,14,1
+https://github.com/GoogleCloudPlatform/cloud-foundation-fabric,649,modules/data-catalog-policy-tag/main.tf,modules/data-catalog-policy-tag/main.tf,0,#todo,#TODO Add IAM at tag level,#TODO Add IAM at tag level,,,the block associated got renamed or deleted,,43,,307c29d2f89c3e0856e59018152033e434b51ace,a40493a43324fe4a55f056e7f21b6e9073f77bf4,https://github.com/GoogleCloudPlatform/cloud-foundation-fabric/blob/307c29d2f89c3e0856e59018152033e434b51ace/modules/data-catalog-policy-tag/main.tf#L43,https://github.com/GoogleCloudPlatform/cloud-foundation-fabric/blob/a40493a43324fe4a55f056e7f21b6e9073f77bf4/modules/data-catalog-policy-tag/main.tf,2022-02-09 13:05:27+01:00,2022-03-10 19:21:54+01:00,2,1
+https://github.com/mozilla/hubs-ops,136,terraform/modules/ret/main.tf,terraform/modules/ret/main.tf,0,todo,# TODO reassign,# TODO reassign,,,the block associated got renamed or deleted,,618,,f45cc1d464a1e1b95c61640bcdb17c8574c7d633,f75498ed97a073686e0d920232ec621f96603119,https://github.com/mozilla/hubs-ops/blob/f45cc1d464a1e1b95c61640bcdb17c8574c7d633/terraform/modules/ret/main.tf#L618,https://github.com/mozilla/hubs-ops/blob/f75498ed97a073686e0d920232ec621f96603119/terraform/modules/ret/main.tf,2019-04-28 23:18:12+00:00,2019-04-30 04:22:51+00:00,7,1

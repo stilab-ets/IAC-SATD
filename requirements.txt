@@ -1,0 +1,56 @@
+# Requirements for SATD IaC Replication Study
+# Generated from virtual environment
+
+# Core Data Science
+pandas~=3.0.0
+numpy~=2.4.1
+scikit-learn~=1.8.0
+scipy==1.15.2
+
+# Visualization
+matplotlib~=3.10.8
+
+# Code Analysis
+lizard==1.20.0
+PyDriller==2.9
+tree-sitter==0.25.2
+
+# Git Integration
+GitPython==3.1.44
+gitdb==4.0.12
+
+# Utilities
+tqdm==4.67.1
+tabulate==0.9.0
+python-dateutil==2.9.0.post0
+pytz==2025.2
+tzdata==2025.2
+regex==2024.11.6
+joblib==1.4.2
+
+# Configuration
+python-dotenv==1.1.1
+PyYAML==6.0.2
+toml==0.10.2
+
+# HTTP/API
+requests~=2.32.5
+urllib3==2.3.0
+certifi==2025.1.31
+
+# CLI
+click==8.1.8
+colorama==0.4.6
+rich==14.0.0
+
+# Type Checking
+typing_extensions==4.13.0
+annotated-types==0.7.0
+
+# Custom Dependencies
+torch~=2.7.1
+transformers~=4.51.3
+scikit-multilearn~=0.2.0
+lightgbm~=4.6.0
+openai~=2.15.0
+anthropic~=0.51.0

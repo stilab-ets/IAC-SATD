@@ -1,0 +1,9 @@
+label,eval_metric,model,rank,mean,median,iqr
+Monitoring and Logging Debt,f1-score,qwen,1,0.7472111875053055,0.7272727272727273,0.2152777777777778
+Monitoring and Logging Debt,f1-score,claude,1,0.7166584258534723,0.7058823529411765,0.11184210526315796
+Monitoring and Logging Debt,f1-score,gemma,2,0.6281066253708604,0.64,0.1803030303030303
+Monitoring and Logging Debt,f1-score,gemini,3,0.5166666666666665,0.6153846153846154,0.170940170940171
+Monitoring and Logging Debt,f1-score,deepseek,3,0.6213742933070665,0.6153846153846154,0.19206349206349216
+Monitoring and Logging Debt,f1-score,chatgpt,4,0.6805157867342745,0.6153846153846154,0.21176470588235297
+Monitoring and Logging Debt,f1-score,RF,5,0.006349206349206349,0.0,0.0
+Monitoring and Logging Debt,f1-score,LightGBM,6,0.08017316017316016,0.0,0.1818181818181818
