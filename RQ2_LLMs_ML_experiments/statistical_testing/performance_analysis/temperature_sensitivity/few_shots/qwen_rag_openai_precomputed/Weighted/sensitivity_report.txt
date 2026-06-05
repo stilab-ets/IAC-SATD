@@ -1,0 +1,25 @@
+Temperature sensitivity report
+Scenario: few_shots
+Model: Qwen Few-Shot
+Label: Weighted
+
+Temperature medians by metric:
+ temperature  precision_median  precision_q1  precision_q3  precision_min  precision_max  recall_median  recall_q1  recall_q3  recall_min  recall_max  f1-score_median  f1-score_q1  f1-score_q3  f1-score_min  f1-score_max
+    0.000000          0.820081      0.811586      0.820534       0.810259       0.828673       0.768707   0.759322   0.783784    0.755853    0.786441         0.783781     0.782861     0.789681      0.781544      0.798854
+    0.100000          0.822524      0.820493      0.825373       0.815246       0.833206       0.775510   0.755932   0.780405    0.755853    0.783051         0.789228     0.783092     0.791312      0.782695      0.799094
+    0.200000          0.827088      0.817664      0.827562       0.817272       0.828599       0.768707   0.752542   0.786441    0.745819    0.787162         0.786768     0.783307     0.792313      0.775721      0.800382
+    0.300000          0.819985      0.813501      0.825794       0.811096       0.829753       0.776271   0.755932   0.777027    0.752508    0.778912         0.786066     0.785426     0.789990      0.775663      0.792940
+    0.400000          0.820705      0.816735      0.823033       0.801418       0.825203       0.768707   0.745819   0.769492    0.745763    0.777027         0.778142     0.777885     0.785323      0.777534      0.788180
+    0.500000          0.825487      0.821625      0.826160       0.808519       0.827267       0.755932   0.742475   0.768707    0.738983    0.783784         0.777318     0.775541     0.786560      0.772663      0.796934
+    0.600000          0.824593      0.819364      0.829680       0.813860       0.838146       0.768707   0.765886   0.769492    0.752542    0.787162         0.786631     0.783757     0.792178      0.775246      0.805456
+
+Sensitivity summary:
+   metric  best_temperature  best_median  worst_temperature  worst_median  median_gap  median_of_temperature_medians
+precision          0.200000     0.827088           0.300000      0.819985    0.007103                       0.822524
+   recall          0.300000     0.776271           0.500000      0.755932    0.020339                       0.768707
+ f1-score          0.100000     0.789228           0.500000      0.777318    0.011910                       0.786066
+
+Interpretation helper:
+- `best_temperature` is the temperature with the highest median score.
+- `worst_temperature` is the temperature with the lowest median score.
+- `median_gap` is the practical spread across temperatures.

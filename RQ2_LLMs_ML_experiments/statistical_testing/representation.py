@@ -193,8 +193,8 @@ def generate_latex_table_from_skd(
 
 if __name__ == "__main__":
     # Choose one:
-    # CONFIG_NAME = "zero_shot_vs_ml_baselines"
-    CONFIG_NAME = "few_shots_vs_zero_shot"
+    CONFIG_NAME = "zero_shot_vs_ml_baselines"
+    # CONFIG_NAME = "few_shots_vs_zero_shot"
 
     cfg = CONFIGS[CONFIG_NAME]
     sk_ranks = load_skd_tables(cfg["paths"])
