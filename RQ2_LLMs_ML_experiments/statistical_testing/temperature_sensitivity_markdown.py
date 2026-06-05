@@ -119,7 +119,7 @@ def render_summary_table(base_dir: Path, scenario_key: str, scenario_cfg: dict) 
     lines = [
         f"### {scenario_cfg['title']} Summary",
         "",
-        "| Model | Best T | Best Median W-F1 | Worst T | Worst Median W-F1 | Absolute Gap | Relative Variation |",
+        "| Model | Highest T | Highest Median W-F1 | Lowest T | Lowest Median W-F1 | Absolute Gap | Relative Variation |",
         "| --- | ---: | ---: | ---: | ---: | ---: | ---: |",
     ]
     for row in rows:

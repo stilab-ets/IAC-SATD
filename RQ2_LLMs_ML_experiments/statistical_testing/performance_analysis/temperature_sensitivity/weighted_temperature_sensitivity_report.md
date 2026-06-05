@@ -17,7 +17,7 @@ Relative variation (%) = [Absolute gap / median_T m(T)] * 100
 
 ### Zero-Shot LLMs Summary
 
-| Model | Best T | Best Median W-F1 | Worst T | Worst Median W-F1 | Absolute Gap | Relative Variation |
+| Model | Highest T | Highest Median W-F1 | Lowest T | Lowest Median W-F1 | Absolute Gap | Relative Variation |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | ChatGPT Zero-Shot | 0.0 | 0.787 | 0.6 | 0.779 | 0.008 | 1.00% |
 | Claude Zero-Shot | 0.2 | 0.733 | 0.5 | 0.723 | 0.010 | 1.34% |
@@ -70,7 +70,7 @@ Relative variation (%) = [Absolute gap / median_T m(T)] * 100
 
 ### Few-Shot RAG LLMs Summary
 
-| Model | Best T | Best Median W-F1 | Worst T | Worst Median W-F1 | Absolute Gap | Relative Variation |
+| Model | Highest T | Highest Median W-F1 | Lowest T | Lowest Median W-F1 | Absolute Gap | Relative Variation |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | ChatGPT Few-Shot | 0.6 | 0.819 | 0.5 | 0.811 | 0.008 | 0.96% |
 | Claude Few-Shot | 0.5 | 0.774 | 0.0 | 0.763 | 0.011 | 1.49% |
