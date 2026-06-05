@@ -68,7 +68,7 @@ Relative variation (%) = [Absolute gap / median_T m(T)] * 100
 
 </table>
 
-### Few-Shot RAG LLMs Summary
+### Few-Shot LLMs Summary
 
 | Model | Highest T | Highest Median W-F1 | Lowest T | Lowest Median W-F1 | Absolute Gap | Relative Variation |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -79,7 +79,7 @@ Relative variation (%) = [Absolute gap / median_T m(T)] * 100
 | Gemma Few-Shot | 0.3 | 0.790 | 0.2 | 0.785 | 0.005 | 0.60% |
 | Qwen Few-Shot | 0.1 | 0.789 | 0.5 | 0.777 | 0.012 | 1.52% |
 
-## Few-Shot RAG LLMs
+## Few-Shot LLMs
 
 <table>
 

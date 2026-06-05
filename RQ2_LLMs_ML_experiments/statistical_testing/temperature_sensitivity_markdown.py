@@ -17,7 +17,7 @@ SCENARIOS = {
         },
     },
     "few_shots": {
-        "title": "Few-Shot RAG LLMs",
+        "title": "Few-Shot LLMs",
         "models": [
             "chatgpt_rag_openai_precomputed",
             "claude_rag_openai_precomputed",
