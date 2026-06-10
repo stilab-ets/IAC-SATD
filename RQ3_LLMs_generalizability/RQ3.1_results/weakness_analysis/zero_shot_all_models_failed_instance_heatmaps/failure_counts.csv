@@ -1,0 +1,7 @@
+model,display_model,failed_instances,failed_rate
+claude,Claude,366,0.538235294117647
+qwen,Qwen,291,0.4279411764705882
+gemma,Gemma,262,0.38529411764705884
+chatgpt,ChatGPT,184,0.27058823529411763
+deepseek,DeepSeek,170,0.25
+gemini,Gemini,154,0.22647058823529412
